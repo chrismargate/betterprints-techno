@@ -10,4 +10,3 @@ def index(response,id):
 
 def home(response):
     return render(response,"main/home.html",{})
-
