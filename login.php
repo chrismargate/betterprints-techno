@@ -9,23 +9,23 @@
         $requiredFields = array($username,$password);
 
         if(emptyFields($requiredFields)){
-            echo "<h1>There was a required field you left blank. Please check again before submitting.</h1>";
+            echo "<h1>Please enter the username and password.</h1>";
         }else{
 
             // $conn = new mysqli(DB_HOST,DB_USER,DB_PASS,DB_NAME);
 
             $sqlQuery = "SELECT * FROM customers_t WHERE username = '$username'";
-            $sqlResults = mysqli_query($sqlQuery,$conn);
-            $arrayResult = mysqli_fetch_all($sqlResults)
+            $sqlResults = mysqli_query($conn,$sqlQuery);
+            $arrayResult = mysqli_fetch_all($sqlResults, MYSQLI_ASSOC)[0];
 
-            // echo $sqlQuery;
-
-            if($conn->query($sqlQuery) === TRUE){
-                echo "<h1>You have registered successfully!</h1>";
-                header("Location: index.php");
-            }else {
-                echo "Error: " . $sqlQuery . "<br>" . $conn->error;
-              }
+            print_r($arrayResult);
+            
+            // if($conn->query($sqlQuery) === TRUE){
+            //     echo "<h1>You have registered successfully!</h1>";
+            //     header("Location: index.php");
+            // }else {
+            //     echo "Error: " . $sqlQuery . "<br>" . $conn->error;
+            //   }
         }
 
     }
@@ -52,7 +52,7 @@
                             <div class="card" style="border-radius: 15px;">
                                 <div class="card-body p-5">
                                     <h2 class="text-uppercase text-center mb-5">LOGIN</h2>
-                                    <form action="register.php" method="POST">
+                                    <form action="login.php" method="POST">
                                         <div class="form-outline mb-4">
                                         <label class="form-label" for="form3Example4cdg">Username</label>
                                         <input type="text" id="form3Example4cdg" class="form-control form-control-lg" name="username"/>
