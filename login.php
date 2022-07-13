@@ -1,5 +1,8 @@
 <?php
     include "config/database.php";
+    include "config/input_checking.php";
+
+    $conn = newConnection();
 
     if(isset($_POST["login"])){
 
