@@ -13,7 +13,19 @@
   //   echo "<h1>Exists</h1>";
   // }
 
-  var_dump(existingUsername("margate23"));
+  $conn = newConnection();
+
+  $sqlQuery = "SELECT * FROM customers_T WHERE username = 'margate23'";
+  $sqlResults = mysqli_query($conn,$sqlQuery);
+
+  // $conn->close();
+  if(mysqli_num_rows($sqlResults) > 0){
+      echo "Exists";
+  }
+
+  // $isValid = existingUsername("margate23");
+
+  // var_dump($isValid);
 
 ?>
 

@@ -26,7 +26,6 @@
                 echo "<h1>Exists</h1>";
             }
             
-
             // if($arrayResult)
             // if($conn->query($sqlQuery) === TRUE){
             //     echo "<h1>You have registered successfully!</h1>";
