@@ -1,13 +1,19 @@
 <?php
   include "config/database.php";
+  include "config/input_checking.php";
 
-  $conn = newConnection();
+  // $conn = newConnection();
 
-  $sqlQuery = "SELECT * FROM customers_T";
-  $sqlResults = mysqli_query($conn,$sqlQuery);
-  $Results = mysqli_fetch_all($sqlResults,MYSQLI_ASSOC)[0];
+  // $sqlQuery = "SELECT * FROM customers_T WHERE username = 'margate23'";
+  // $sqlResults = mysqli_query($conn,$sqlQuery);
+  // $results = mysqli_fetch_all($sqlResults,MYSQLI_ASSOC)[0];
 
-  print_r($Results);
+
+  // if(mysqli_num_rows($sqlResults) > 0){
+  //   echo "<h1>Exists</h1>";
+  // }
+
+  var_dump(existingUsername("margate23"));
 
 ?>
 

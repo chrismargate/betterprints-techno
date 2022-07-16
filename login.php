@@ -2,8 +2,6 @@
     include "config/database.php";
     include "config/input_checking.php";
 
-    $conn = newConnection();
-
     if(isset($_POST["login"])){
 
         $username = $_POST["username"];
@@ -15,14 +13,21 @@
             echo "<h1>Please enter the username and password.</h1>";
         }else{
 
+            // if
+
             // $conn = new mysqli(DB_HOST,DB_USER,DB_PASS,DB_NAME);
 
-            $sqlQuery = "SELECT * FROM customers_t WHERE username = '$username'";
+            $conn = newConnection();
+            $sqlQuery = "SELECT * FROM customers_T WHERE username = '$username'";
             $sqlResults = mysqli_query($conn,$sqlQuery);
-            $arrayResult = mysqli_fetch_all($sqlResults, MYSQLI_ASSOC)[0];
+            // $arrayResult = mysqli_fetch_all($sqlResults, MYSQLI_ASSOC)[0];
 
-            print_r($arrayResult);
+            if(mysqli_num_rows($sqlResults) > 0){
+                echo "<h1>Exists</h1>";
+            }
             
+
+            // if($arrayResult)
             // if($conn->query($sqlQuery) === TRUE){
             //     echo "<h1>You have registered successfully!</h1>";
             //     header("Location: index.php");

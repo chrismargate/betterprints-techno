@@ -1,5 +1,7 @@
 <?php
 
+    include "config/database.php";
+
     function emptyFields($inputArray){
         foreach($inputArray as $arrayElement){
             if(empty($arrayElement)){
@@ -92,6 +94,37 @@
             
         }
         return true;
+    }
+
+    function existingUsername($inputString){
+        
+        $conn = newConnection();
+
+        $sqlQuery = "SELECT * FROM customers_T WHERE username = '$inputString'";
+        $sqlResults = mysqli_query($conn,$sqlQuery);
+
+        $conn->close();
+        if(mysqli_num_rows($sqlResults) > 0){
+            return true;
+        }
+
+        return false;
+    }
+
+    function existingEmail($inputString){
+        
+        $conn = newConnection();
+
+        $sqlQuery = "SELECT * FROM customers_T WHERE email_address = '$inputString'";
+        $sqlResults = mysqli_query($conn,$sqlQuery);
+        
+        $conn->close();
+        if(mysqli_num_rows($sqlResults) > 0){
+            return true;
+        }
+
+        return false;
+
     }
 
 ?>
