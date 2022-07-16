@@ -1,9 +1,12 @@
 <?php
 
     include "config/database.php";
+    include "config/input_checking.php";
+
+    echo "<h1>Pass 1</h1>";
 
     if(isset($_POST["register"])){
-
+        echo "<h1>Entered the post function</h1>";
         $username = $_POST["username"];
         $password = $_POST["password"];
         $fname = $_POST["fname"];
@@ -13,23 +16,33 @@
         $email = $_POST["email"];
 
         $requiredFields = array($username,$password,$fname,$lname,$address,$email,$contactNumber);
+        print_r($requiredFields);
 
         if(emptyFields($requiredFields)){
             echo "<h1>There was a required field you left blank. Please check again before submitting.</h1>";
+            echo "<h1>Pass 2</h1>";
+
         }else{
 
             // $conn = new mysqli(DB_HOST,DB_USER,DB_PASS,DB_NAME);
+            $conn = newConnection();
 
-            $sqlQuery = "INSERT INTO customers_t (username, password, fname, lname, address, contact_number, email_address) VALUES ('$username', '$password', '$fname','$lname','$address', '$contactNumber', '$email')";
+            $sqlQuery = "INSERT INTO customers_t (username, password, fname, lname, email_address, contact_number,address) VALUES ('$username', '$password', '$fname','$lname','$email', '$contactNumber','$address')";
 
-            // echo $sqlQuery;
+            echo "<h1>Pass 3</h1>";
+
+            echo $sqlQuery;
+            // mysqli_query($conn,$sqlQuery);
+            // var_dump($conn);
 
             if($conn->query($sqlQuery) === TRUE){
                 echo "<h1>You have registered successfully!</h1>";
-                header("Location: index.php");
+                // header("Location: index.php");
             }else {
                 echo "Error: " . $sqlQuery . "<br>" . $conn->error;
-              }
+            }
+
+            $conn->close();
         }
 
     }
@@ -100,12 +113,12 @@
                                         <input type="text" id="form3Example4cdg" class="form-control form-control-lg" name="contactNumber"/>
                                         </div>
     
-                                        <div class="form-check d-flex justify-content-center mb-5">
+                                        <!-- <div class="form-check d-flex justify-content-center mb-5">
                                         <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3cg" />
                                         <label class="form-check-label" for="form2Example3g">
                                             I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
                                         </label>
-                                        </div>
+                                        </div> -->
     
                                         <div class="d-flex justify-content-center">
                                         <button type="submit"

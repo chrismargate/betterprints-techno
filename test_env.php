@@ -1,4 +1,13 @@
 <?php
+  include "config/database.php";
+
+  $conn = newConnection();
+
+  $sqlQuery = "SELECT * FROM customers_T";
+  $sqlResults = mysqli_query($conn,$sqlQuery);
+  $Results = mysqli_fetch_all($sqlResults,MYSQLI_ASSOC)[0];
+
+  print_r($Results);
 
 ?>
 
