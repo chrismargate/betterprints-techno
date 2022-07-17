@@ -45,20 +45,26 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div id="logo">
-        <h1><a href="index.html"><span>e</span>Startup</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" title="" /></a>-->
+        <div class="row">
+          <div class="col">
+            <a href="index.php"><img src="assets/logo/bp-logo-transparent.png" style="width: 20%; height: auto;"/></a>
+          </div>
+          <div class="col">
+            <!-- <h1><a href="index.html">BetterPrints</a></h1> -->
+            <!-- <h1 class="h1-title">BetterPrints</h1> -->
+          </div>
+        </div>
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
           <li><a class="nav-link scrollto" href="#about-us">Franchise</a></li>
-          <li><a class="nav-link scrollto" href="#features">Services</a></li>
           <li><a class="nav-link scrollto" href="#screenshots">Branches</a></li>
-          <li><a class="nav-link scrollto" href="#team">Pricing</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">Contact Us</a></li>
           <li><a class="nav-link scrollto" href="#pricing">About Us</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">Contact Us</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -92,11 +98,11 @@
       <h2>Elegant Bootstrap Template for Startups, Apps &amp; more...</h2>
       <img src="assets/img/hero-img.png" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100">
       <a href="#get-started" class="btn-get-started scrollto">Get Started</a>
-      <div class="btns">
+      <!-- <div class="btns">
         <a href="#"><i class="fa fa-apple fa-3x"></i> App Store</a>
         <a href="#"><i class="fa fa-play fa-3x"></i> Google Play</a>
         <a href="#"><i class="fa fa-windows fa-3x"></i> windows</a>
-      </div>
+      </div> -->
     </div>
   </section><!-- End Hero Section -->
 
@@ -156,7 +162,7 @@
     </section><!-- End Get Started Section -->
 
     <!-- ======= About Us Section ======= -->
-    <section id="about-us" class="about-us padd-section">
+    <!-- <section id="about-us" class="about-us padd-section">
       <div class="container" data-aos="fade-up">
         <div class="row justify-content-center">
 
@@ -184,37 +190,38 @@
 
         </div>
       </div>
-    </section><!-- End About Us Section -->
+    </section> -->
+    <!-- End About Us Section -->
 
     <!-- ======= Features Section ======= -->
-    <section id="features" class="padd-section text-center">
+    <section id="services" class="padd-section text-center">
 
       <div class="container" data-aos="fade-up">
         <div class="section-title text-center">
-          <h2>Amazing Features.</h2>
+          <h2>Services</h2>
           <p class="separator">Integer cursus bibendum augue ac cursus .</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
 
           <div class="col-md-6 col-lg-3">
-            <div class="feature-block">
+            <div class="service-block">
               <img src="assets/img/svg/paint-palette.svg" alt="img">
-              <h4>creative design</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <h4>paper printing</h4>
+              <p>Print A0 to A8, Photo Papers, etc.</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3">
-            <div class="feature-block">
+            <div class="service-block">
               <img src="assets/img/svg/vector.svg" alt="img">
-              <h4>Retina Ready</h4>
+              <h4>shirt printing</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3">
-            <div class="feature-block">
+            <div class="service-block">
               <img src="assets/img/svg/design-tool.svg" alt="img">
               <h4>easy to use</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
@@ -222,7 +229,7 @@
           </div>
 
           <div class="col-md-6 col-lg-3">
-            <div class="feature-block">
+            <div class="service-block">
               <img src="assets/img/svg/asteroid.svg" alt="img">
               <h4>Free Updates</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
@@ -230,7 +237,7 @@
           </div>
 
           <div class="col-md-6 col-lg-3">
-            <div class="feature-block">
+            <div class="service-block">
               <img src="assets/img/svg/asteroid.svg" alt="img">
               <h4>Free Updates</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
@@ -238,7 +245,7 @@
           </div>
 
           <div class="col-md-6 col-lg-3">
-            <div class="feature-block">
+            <div class="service-block">
               <img src="assets/img/svg/cloud-computing.svg" alt="img">
               <h4>App store support</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
@@ -246,7 +253,7 @@
           </div>
 
           <div class="col-md-6 col-lg-3">
-            <div class="feature-block">
+            <div class="service-block">
               <img src="assets/img/svg/pixel.svg" alt="img">
               <h4>Perfect Pixel</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
@@ -254,7 +261,7 @@
           </div>
 
           <div class="col-md-6 col-lg-3">
-            <div class="feature-block">
+            <div class="service-block">
               <img src="assets/img/svg/code.svg" alt="img">
               <h4>clean codes</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
@@ -265,8 +272,99 @@
       </div>
     </section><!-- End Features Section -->
 
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="padd-section text-cente">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-title text-center">
+
+          <h2>Pricing</h2>
+          <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-md-6 col-lg-3">
+            <div class="block-pricing">
+              <div class="pricing-table">
+                <h4>Savers</h4>
+                <h2>₱100</h2>
+                <ul class="list-unstyled">
+                  <li><b>100</b> A4 Size Prints</li>
+                  <li><b>Monochrome only</b></li>
+                  <li><b>In-store</b> pick up</li>
+                </ul>
+                <div class="table_btn">
+                  <a href="#" class="btn"><i class="bi bi-cart"></i> Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="block-pricing">
+              <div class="pricing-table">
+                <h4>basic</h4>
+                <h2>₱250</h2>
+                <ul class="list-unstyled">
+                  <li><b>200</b> A4 Size Prints</li>
+                  <li><b>Monochrome</b> or <b>Colored</b></li>
+                  <li><b>Free delivery</b> within the city</li>
+                  <li>Includes free stickers prints</li>
+                  <li><b>5% off</b> on next subscription</li>
+                </ul>
+                <div class="table_btn">
+                  <a href="#" class="btn"><i class="bi bi-cart"></i> Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="block-pricing">
+              <div class="pricing-table">
+                <h4>premium</h4>
+                <h2>₱500</h2>
+                <ul class="list-unstyled">
+                  <li><b>400</b> A4 Size Prints</li>
+                  <li><b>Monochrome</b> Or <b>Colored</b></li>
+                  <li><b>Free delivery</b> within the city</li>
+                  <li>Includes free sticker prints</li>
+                  <li><b>10% off</b> on next subscription</li>
+                </ul>
+                <div class="table_btn">
+                  <a href="#" class="btn"><i class="bi bi-cart"></i> Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="block-pricing">
+              <div class="pricing-table">
+                <h4>professional</h4>
+                <h2>₱750</h2>
+                <ul class="list-unstyled">
+                  <li><b>500</b> A4 Size Prints</li>
+                  <li><b>Monochrome</b> Or <b>Colored</b></li>
+                  <li><b>Free document scans</b></li>
+                  <li><b>Free delivery</b> within the city</li>
+                  <li><b>20% off</b> on business cards</li>
+                  <li><b>10% off</b> on next subscription</li>
+                </ul>
+                <div class="table_btn">
+                  <a href="#" class="btn"><i class="bi bi-cart"></i> Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Pricing Section -->
+
     <!-- ======= Screenshots Section ======= -->
-    <section id="screenshots" class="padd-section text-center">
+    <!-- <section id="screenshots" class="padd-section text-center">
 
       <div class="container" data-aos="fade-up">
         <div class="section-title text-center">
@@ -289,10 +387,11 @@
         </div>
       </div>
 
-    </section><!-- End Screenshots Section -->
+    </section> -->
+    <!-- End Screenshots Section -->
 
     <!-- ======= Video Section ======= -->
-    <section id="video" class="text-center">
+    <!-- <section id="video" class="text-center">
       <div class="overlay">
         <div class="container-fluid container-full" data-aos="zoom-in">
 
@@ -302,10 +401,11 @@
 
         </div>
       </div>
-    </section><!-- End Video Section -->
+    </section> -->
+    <!-- End Video Section -->
 
     <!-- ======= Team Section ======= -->
-    <section id="team" class="padd-section text-center">
+    <!-- <section id="team" class="padd-section text-center">
 
       <div class="container" data-aos="fade-up">
         <div class="section-title text-center">
@@ -378,10 +478,11 @@
 
         </div>
       </div>
-    </section><!-- End Team Section -->
+    </section> -->
+    <!-- End Team Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="padd-section text-center">
+    <!-- <section id="testimonials" class="padd-section text-center">
       <div class="container" data-aos="fade-up">
         <div class="row justify-content-center">
 
@@ -443,101 +544,13 @@
 
         </div>
       </div>
-    </section><!-- End Testimonials Section -->
+    </section> -->
+    <!-- End Testimonials Section -->
 
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="padd-section text-cente">
-
-      <div class="container" data-aos="fade-up">
-        <div class="section-title text-center">
-
-          <h2>Meet With Price</h2>
-          <p class="separator">Integer cursus bibendum augue ac cursus .</p>
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-md-6 col-lg-3">
-            <div class="block-pricing">
-              <div class="pricing-table">
-                <h4>basic</h4>
-                <h2>$29</h2>
-                <ul class="list-unstyled">
-                  <li><b>4 GB</b> Ram</li>
-                  <li><b>7/24</b> Tech Support</li>
-                  <li><b>40 GB</b> SSD Cloud Storage</li>
-                  <li>Monthly Backups</li>
-                  <li>Palo Protection</li>
-                </ul>
-                <div class="table_btn">
-                  <a href="#" class="btn"><i class="bi bi-cart"></i> Buy Now</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <div class="block-pricing">
-              <div class="pricing-table">
-                <h4>PERSONAL</h4>
-                <h2>$29</h2>
-                <ul class="list-unstyled">
-                  <li><b>4 GB</b> Ram</li>
-                  <li><b>7/24</b> Tech Support</li>
-                  <li><b>40 GB</b> SSD Cloud Storage</li>
-                  <li>Monthly Backups</li>
-                  <li>Palo Protection</li>
-                </ul>
-                <div class="table_btn">
-                  <a href="#" class="btn"><i class="bi bi-cart"></i> Buy Now</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <div class="block-pricing">
-              <div class="pricing-table">
-                <h4>BUSINESS</h4>
-                <h2>$29</h2>
-                <ul class="list-unstyled">
-                  <li><b>4 GB</b> Ram</li>
-                  <li><b>7/24</b> Tech Support</li>
-                  <li><b>40 GB</b> SSD Cloud Storage</li>
-                  <li>Monthly Backups</li>
-                  <li>Palo Protection</li>
-                </ul>
-                <div class="table_btn">
-                  <a href="#" class="btn"><i class="bi bi-cart"></i> Buy Now</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <div class="block-pricing">
-              <div class="pricing-table">
-                <h4>profeesional</h4>
-                <h2>$29</h2>
-                <ul class="list-unstyled">
-                  <li><b>4 GB</b> Ram</li>
-                  <li><b>7/24</b> Tech Support</li>
-                  <li><b>40 GB</b> SSD Cloud Storage</li>
-                  <li>Monthly Backups</li>
-                  <li>Palo Protection</li>
-                </ul>
-                <div class="table_btn">
-                  <a href="#" class="btn"><i class="bi bi-cart"></i> Buy Now</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Pricing Section -->
+    
 
     <!-- ======= Blog Section ======= -->
-    <section id="blog" class="padd-sectio">
+    <!-- <section id="blog" class="padd-sectio">
 
       <div class="container" data-aos="fade-up">
         <div class="section-title text-center">
@@ -608,7 +621,8 @@
 
         </div>
       </div>
-    </section><!-- End Newsletter Section -->
+    </section> -->
+    <!-- End Newsletter Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="padd-section">
@@ -758,16 +772,7 @@
 
     <div class="copyrights">
       <div class="container">
-        <p>&copy; Copyrights eStartup. All rights reserved.</p>
-        <div class="credits">
-          <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eStartup
-        -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
+        <p>&copy; Copyrights BetterPrints. All rights reserved.</p>
       </div>
     </div>
 
