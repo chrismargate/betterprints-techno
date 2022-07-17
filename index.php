@@ -94,15 +94,75 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container" data-aos="fade-in">
-      <h1>Welcome to eStartup</h1>
-      <h2>Elegant Bootstrap Template for Startups, Apps &amp; more...</h2>
-      <img src="assets/img/hero-img.png" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100">
+      <h1>Welcome to BetterPrints</h1>
+      <h2>Providing prints for the future</h2>
+      <!-- <img src="assets/img/hero-img.png" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100"> -->
+      <!-- ======= Testimonials Section ======= -->
+      <div class="hero-container-introduction padd-section text-center">
+        <div class="container" data-aos="fade-up">
+          <div class="row justify-content-center">
+
+            <div class="col-md-8">
+
+              <div class="testimonials-content">
+                <div id="carousel-example-generic" class="carousel slide" data-bs-ride="carousel">
+
+                  <div class="carousel-inner" role="listbox">
+
+                    <div class="carousel-item  active">
+                      <div class="top-top">
+
+                        <h2>Our Users Speack volumes us</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                          specimen book. It has survived not only five centuries.</p>
+                        <h4>Kimberly Tran<span>manager</span></h4>
+
+                      </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                      <div class="top-top">
+
+                        <h2>Our Users Speack volumes us</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                          specimen book. It has survived not only five centuries.</p>
+                        <h4>Henderson<span>manager</span></h4>
+
+                      </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                      <div class="top-top">
+
+                        <h2>Our Users Speack volumes us</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                          specimen book. It has survived not only five centuries.</p>
+                        <h4>David Spark<span>manager</span></h4>
+
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="btm-btm">
+
+                    <ul class="list-unstyled carousel-indicators">
+                      <li data-bs-target="#carousel-example-generic" data-bs-slide-to="0" class="active"></li>
+                      <li data-bs-target="#carousel-example-generic" data-bs-slide-to="1"></li>
+                      <li data-bs-target="#carousel-example-generic" data-bs-slide-to="2"></li>
+                    </ul>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+    </div>
+    <!-- End Testimonials Section -->
       <a href="#get-started" class="btn-get-started scrollto">Get Started</a>
-      <!-- <div class="btns">
-        <a href="#"><i class="fa fa-apple fa-3x"></i> App Store</a>
-        <a href="#"><i class="fa fa-play fa-3x"></i> Google Play</a>
-        <a href="#"><i class="fa fa-windows fa-3x"></i> windows</a>
-      </div> -->
     </div>
   </section><!-- End Hero Section -->
 
@@ -216,7 +276,7 @@
             <div class="service-block">
               <img src="assets/img/svg/t-shirt.png" alt="img">
               <h4>shirt printing</h4>
-              <p>Layout & Printing for shirts of different sizes</p>
+              <p>Layout & printing for shirts of different sizes</p>
             </div>
           </div>
 
@@ -327,7 +387,7 @@
                 <h2>₱500</h2>
                 <ul class="list-unstyled">
                   <li><b>400</b> A4 Size Prints</li>
-                  <li><b>Monochrome</b> Or <b>Colored</b></li>
+                  <li><b>Monochrome</b> or <b>Colored</b></li>
                   <li><b>Free delivery</b> within the city</li>
                   <li>Includes free sticker prints</li>
                   <li><b>10% off</b> on next subscription</li>
@@ -346,7 +406,7 @@
                 <h2>₱750</h2>
                 <ul class="list-unstyled">
                   <li><b>500</b> A4 Size Prints</li>
-                  <li><b>Monochrome</b> Or <b>Colored</b></li>
+                  <li><b>Monochrome</b> or <b>Colored</b></li>
                   <li><b>Free document scans</b></li>
                   <li><b>Free delivery</b> within the city</li>
                   <li><b>20% off</b> on business cards</li>
@@ -482,7 +542,7 @@
     <!-- End Team Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <!-- <section id="testimonials" class="padd-section text-center">
+    <section id="testimonials" class="padd-section text-center">
       <div class="container" data-aos="fade-up">
         <div class="row justify-content-center">
 
@@ -544,7 +604,7 @@
 
         </div>
       </div>
-    </section> -->
+    </section>
     <!-- End Testimonials Section -->
 
     
