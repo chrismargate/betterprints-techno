@@ -199,14 +199,14 @@
       <div class="container" data-aos="fade-up">
         <div class="section-title text-center">
           <h2>Services</h2>
-          <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+          <!-- <p class="separator">Integer cursus bibendum augue ac cursus .</p> -->
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
 
           <div class="col-md-6 col-lg-3">
             <div class="service-block">
-              <img src="assets/img/svg/paint-palette.svg" alt="img">
+              <img src="assets/img/svg/printer-2.png" alt="img">
               <h4>paper printing</h4>
               <p>Print A0 to A8, Photo Papers, etc.</p>
             </div>
@@ -214,57 +214,57 @@
 
           <div class="col-md-6 col-lg-3">
             <div class="service-block">
-              <img src="assets/img/svg/vector.svg" alt="img">
+              <img src="assets/img/svg/t-shirt.png" alt="img">
               <h4>shirt printing</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <p>Layout & Printing for shirts of different sizes</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3">
             <div class="service-block">
-              <img src="assets/img/svg/design-tool.svg" alt="img">
-              <h4>easy to use</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <img src="assets/img/svg/yard.png" alt="img">
+              <h4>tarpaulin & commercial signs</h4>
+              <p>Tarpaulins of different sizes with framing included in commercial signs</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3">
             <div class="service-block">
-              <img src="assets/img/svg/asteroid.svg" alt="img">
-              <h4>Free Updates</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <img src="assets/img/svg/delivery-courier.png" alt="img">
+              <h4>courier delivery</h4>
+              <p>Have your printed documents hand delivered door-to-door</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3">
             <div class="service-block">
-              <img src="assets/img/svg/asteroid.svg" alt="img">
-              <h4>Free Updates</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <img src="assets/img/svg/cashless-payment.png" alt="img">
+              <h4>online payments</h4>
+              <p>Pay everything cashless and online through multiple payment methods</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3">
             <div class="service-block">
-              <img src="assets/img/svg/cloud-computing.svg" alt="img">
-              <h4>App store support</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <img src="assets/img/svg/booking.png" alt="img">
+              <h4>mobile compatibility</h4>
+              <p>Access our website and have you documents printed wherever you go</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3">
             <div class="service-block">
-              <img src="assets/img/svg/pixel.svg" alt="img">
-              <h4>Perfect Pixel</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <img src="assets/img/svg/cloud-service.png" alt="img">
+              <h4>document storage support</h4>
+              <p>Explore previously uploaded documents, as every printed file is stored</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3">
             <div class="service-block">
-              <img src="assets/img/svg/code.svg" alt="img">
-              <h4>clean codes</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <img src="assets/img/svg/shield.png" alt="img">
+              <h4>data security & privacy</h4>
+              <p>Documents are protected 24/7 by well-established cloud service providers</p>
             </div>
           </div>
 
@@ -279,7 +279,7 @@
         <div class="section-title text-center">
 
           <h2>Pricing</h2>
-          <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+          <!-- <p class="separator">Integer cursus bibendum augue ac cursus .</p> -->
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
