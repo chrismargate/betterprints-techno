@@ -209,7 +209,7 @@
       <div class="container" data-aos="fade-up">
         <div class="section-title text-center">
           <h2>Services</h2>
-          <p class="separator">Only the best features and services for the best customers!</p>
+          <p class="separator">Only the best features and services for the best customers</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -289,7 +289,7 @@
         <div class="section-title text-center">
 
           <h2>Pricing</h2>
-          <p class="separator"></p>
+          <p class="separator">Explore our different packages and choose based on your preference and needs</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
