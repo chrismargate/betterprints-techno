@@ -28,7 +28,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/index.css?v=1" rel="stylesheet">
+  <link href="assets/css/index.css?v=3" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: eStartup - v4.7.1
@@ -47,7 +47,7 @@
       <div id="logo">
         <div class="row">
           <div class="col">
-            <a href="index.php"><img src="assets/logo/bp-logo-transparent.png" style="width: 20%; height: auto;"/></a>
+            <a href="index.php"><img src="assets/logo/bp-logo-transparent.png"/></a>
           </div>
           <div class="col">
             <!-- <h1><a href="index.html">BetterPrints</a></h1> -->
@@ -96,17 +96,15 @@
     <div class="hero-container" data-aos="fade-in">
       <h1>Welcome to BetterPrints</h1>
       <h2 class="h2-subheading">Providing prints for the future</h2>
-      <!-- <img src="assets/img/hero-img.png" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100"> -->
-      <!-- ======= Testimonials Section ======= -->
+      <img src="assets/img/hero-bg.jpg" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100">
       <div class="hero-container-introduction padd-section text-center">
         <div class="container" data-aos="fade-up">
           <div class="row justify-content-center">
             <div class="col-md-8">
               <div class="hero-introduction-content">
                   <div class="top-top">
-                    <h2>Our Users Speack volumes us</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                      specimen book. It has survived not only five centuries.</p>
+                    <!-- <h2>Our Users Speack volumes us</h2> -->
+                    <p>BetterPrints is a technology company that seeks to integrate new technologies in the digital printing industry, with the purpose of solving logistic inefficiency, high overhead costs as well as information and data security risks</p>
                     <!-- <h4>Kimberly Tran<span>manager</span></h4> -->
                   </div>
               </div>
@@ -114,7 +112,6 @@
           </div>
         </div>
     </div>
-    <!-- End Testimonials Section -->
       <a href="#get-started" class="btn-get-started scrollto">Get Started</a>
     </div>
   </section><!-- End Hero Section -->
@@ -212,7 +209,7 @@
       <div class="container" data-aos="fade-up">
         <div class="section-title text-center">
           <h2>Services</h2>
-          <!-- <p class="separator">Integer cursus bibendum augue ac cursus .</p> -->
+          <p class="separator">Only the best features and services for the best customers!</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -292,7 +289,7 @@
         <div class="section-title text-center">
 
           <h2>Pricing</h2>
-          <!-- <p class="separator">Integer cursus bibendum augue ac cursus .</p> -->
+          <p class="separator"></p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -609,33 +606,17 @@
 
         </div>
       </div>
-    </section><!-- End Blog Section -->
+    </section> -->
+    <!-- End Blog Section -->
 
-    <!-- ======= Newsletter Section ======= -->
+
     <section id="newsletter" class="newsletter text-center">
       <div class="overlay padd-section">
         <div class="container" data-aos="zoom-in">
 
-          <div class="row justify-content-center">
-            <div class="col-md-9 col-lg-6">
-              <form class="d-flex" method="POST" action="#">
-                <input type="email" class="form-control " placeholder="Email Adress" name="email">
-                <button type="submit" class="btn btn-default"><i class="bi bi-location-arrow"></i>Subscribe</button>
-              </form>
-            </div>
-          </div>
-
-          <ul class="list-unstyled">
-            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-            <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-          </ul>
-
         </div>
       </div>
-    </section> -->
-    <!-- End Newsletter Section -->
+    </section>
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="padd-section">

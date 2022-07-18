@@ -18,7 +18,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/vendor/select2/select2.min.css">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="assets/css/util.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/progress_page.css?v=2">
+	<link rel="stylesheet" type="text/css" href="assets/css/progress_page.css?v=1">
 <!--===============================================================================================-->
 </head>
 <body>
