@@ -16,8 +16,8 @@ body {
   h1, h2, h3, h4, h5, h6 {
     margin: 0;
   }
-
-  /* .h1-title {
+/* 
+  .h1-title {
     margin: 0 0 10px 0;
     font-size: 48px;
     font-weight: 700;
@@ -417,7 +417,7 @@ body {
       line-height: 36px;
     }
   }
-  #hero h2 {
+  #hero .h2-subheading {
     color: #777;
     margin-bottom: 30px;
     font-size: 20px;
@@ -473,14 +473,14 @@ body {
     color: #71c55d;
   }
 
-  /* Testimonials Section
+  /* Introduction Carousel Section
   --------------------------------*/
-  #testimonials .testimonials-content {
-    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  #hero .hero-container-introduction {
+    /* box-shadow: 0 0 35px rgba(0, 0, 0, 0.1); */
     padding: 49px 20px;
   }
   
-  #testimonials .testimonials-content::before {
+  /* #hero .hero-container-introduction::before {
     color: #71c55d;
     content: "\f10e";
     display: inline-block;
@@ -489,9 +489,9 @@ body {
     right: 43px;
     text-align: left;
     top: -29px;
-  }
+  } */
   
-  #testimonials .top-top > h2 {
+  #hero .top-top > h2 {
     font-family: "Roboto" sans-serif;
     font-size: 45px;
     font-weight: 100;
@@ -500,17 +500,17 @@ body {
     text-transform: capitalize;
   }
   
-  #testimonials .top-top > h4 {
+  #hero .top-top > h4 {
     font: 700 12px Lato, sans-serif;
   }
   
-  #testimonials .top-top span {
+  #hero .top-top span {
     font-size: 12px;
     font-weight: 300;
     margin-left: 26px;
   }
   
-  #testimonials .btm-btm ul li {
+  #hero .btm-btm ul li {
     float: left;
     margin: 0 8px;
     border-radius: 50%;
@@ -524,7 +524,7 @@ body {
     content: "";
   }
   
-  #testimonials .btm-btm .active {
+  #hero .btm-btm .active {
     background: #71c55d;
   }
   
@@ -888,6 +888,82 @@ body {
       opacity: 0;
     }
   }
+
+  /* Testimonials Section
+--------------------------------*/
+#testimonials .testimonials-content {
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  padding: 49px 20px;
+}
+
+#testimonials .testimonials-content::before {
+  color: #71c55d;
+  content: "\f10e";
+  display: inline-block;
+  font: 70px/1 FontAwesome;
+  position: absolute;
+  right: 43px;
+  text-align: left;
+  top: -29px;
+}
+
+#testimonials .top-top > h2 {
+  font-family: "Roboto" sans-serif;
+  font-size: 45px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+#testimonials .top-top > h4 {
+  font: 700 12px Lato, sans-serif;
+}
+
+#testimonials .top-top span {
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: 26px;
+}
+
+#testimonials .btm-btm ul li {
+  float: left;
+  margin: 0 8px;
+  border-radius: 50%;
+  padding: 0;
+  overflow: hidden;
+  background: #ddd none repeat scroll 0 0;
+  cursor: pointer;
+  height: 12px !important;
+  width: 12px !important;
+  border: 0;
+  content: "";
+}
+
+#testimonials .btm-btm .active {
+  background: #71c55d;
+}
+
+.carousel-indicators {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  bottom: 0 !important;
+  z-index: 15;
+  width: auto;
+  padding-left: 0;
+  margin: 30px auto 0 auto;
+  margin-right: auto;
+  text-align: center;
+  list-style: none;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.carousel-indicators li {
+  margin: 0;
+}
+
   /* Team Section
   --------------------------------*/
   #team .team-block {
@@ -954,10 +1030,13 @@ body {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.19);
     display: inline-block;
     position: relative;
-    width: 100%;
+    /* width: 100%; */
+    height: 572px;
+    width: 306px;
     text-align: center;
     padding: 30px 0;
   }
+
   @media (max-width: 991px) {
     #pricing .block-pricing {
       margin-bottom: 30px;
@@ -968,7 +1047,7 @@ body {
     margin-bottom: 0;
     padding: 30px 15px;
     max-width: 100%;
-    width: 100%;
+    width: 100%;  
   }
   
   #pricing .block-pricing .pricing-table h4 {

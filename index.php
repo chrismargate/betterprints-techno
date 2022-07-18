@@ -28,7 +28,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/index.css" rel="stylesheet">
+  <link href="assets/css/index.css?v=1" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: eStartup - v4.7.1
@@ -95,69 +95,22 @@
   <section id="hero">
     <div class="hero-container" data-aos="fade-in">
       <h1>Welcome to BetterPrints</h1>
-      <h2>Providing prints for the future</h2>
+      <h2 class="h2-subheading">Providing prints for the future</h2>
       <!-- <img src="assets/img/hero-img.png" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100"> -->
       <!-- ======= Testimonials Section ======= -->
       <div class="hero-container-introduction padd-section text-center">
         <div class="container" data-aos="fade-up">
           <div class="row justify-content-center">
-
             <div class="col-md-8">
-
-              <div class="testimonials-content">
-                <div id="carousel-example-generic" class="carousel slide" data-bs-ride="carousel">
-
-                  <div class="carousel-inner" role="listbox">
-
-                    <div class="carousel-item  active">
-                      <div class="top-top">
-
-                        <h2>Our Users Speack volumes us</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                          specimen book. It has survived not only five centuries.</p>
-                        <h4>Kimberly Tran<span>manager</span></h4>
-
-                      </div>
-                    </div>
-
-                    <div class="carousel-item ">
-                      <div class="top-top">
-
-                        <h2>Our Users Speack volumes us</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                          specimen book. It has survived not only five centuries.</p>
-                        <h4>Henderson<span>manager</span></h4>
-
-                      </div>
-                    </div>
-
-                    <div class="carousel-item ">
-                      <div class="top-top">
-
-                        <h2>Our Users Speack volumes us</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                          specimen book. It has survived not only five centuries.</p>
-                        <h4>David Spark<span>manager</span></h4>
-
-                      </div>
-                    </div>
-
+              <div class="hero-introduction-content">
+                  <div class="top-top">
+                    <h2>Our Users Speack volumes us</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                      specimen book. It has survived not only five centuries.</p>
+                    <!-- <h4>Kimberly Tran<span>manager</span></h4> -->
                   </div>
-
-                  <div class="btm-btm">
-
-                    <ul class="list-unstyled carousel-indicators">
-                      <li data-bs-target="#carousel-example-generic" data-bs-slide-to="0" class="active"></li>
-                      <li data-bs-target="#carousel-example-generic" data-bs-slide-to="1"></li>
-                      <li data-bs-target="#carousel-example-generic" data-bs-slide-to="2"></li>
-                    </ul>
-
-                  </div>
-
-                </div>
               </div>
             </div>
-
           </div>
         </div>
     </div>
