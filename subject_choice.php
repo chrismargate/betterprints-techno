@@ -34,17 +34,12 @@
 
 <body>
 
-<!-- <div class="overlay"></div> -->
-
-
-
-
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
      
       <h1>Welcome to our group website!</h1>
-      <h2>Please choose a subject:</h2>
+      <h2>Choose a subject to get started:</h2>
       <a href="#" class="btn-get-started">Technopreneurship - BetterPrints</a>
       <a href="#" class="btn-get-started">Information Assurance & Security - ACare Appointment System</a>
       <video class="back-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
