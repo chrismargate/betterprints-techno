@@ -501,9 +501,7 @@
                     <div class="top-top">
 
                       <h2>Vision</h2>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                        specimen book. It has survived not only five centuries.</p>
-                      <!-- <h4>Kimberly Tran<span>manager</span></h4> -->
+                      <p>BetterPrints aims to turn every independent printing business to an interconnected network of entities providing low cost, secure and efficient printing services.</p>
 
                     </div>
                   </div>
@@ -511,10 +509,8 @@
                   <div class="carousel-item ">
                     <div class="top-top">
 
-                      <h2>Our Users Speack volumes us</h2>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                        specimen book. It has survived not only five centuries.</p>
-                      <h4>Henderson<span>manager</span></h4>
+                      <h2>Mission</h2>
+                      <p>To ensure the highest level of convenience and pleasant experience for students and the working class, cutting the time and cost it takes for our product to get to the customer's hands.</p>
 
                     </div>
                   </div>
@@ -522,10 +518,8 @@
                   <div class="carousel-item ">
                     <div class="top-top">
 
-                      <h2>Our Users Speack volumes us</h2>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                        specimen book. It has survived not only five centuries.</p>
-                      <h4>David Spark<span>manager</span></h4>
+                      <h2>Goals</h2>
+                      <p>Encourage and partner with local businesses, assisting in the establishment of a well-built printing business through the integration of the company’s technology.</p>
 
                     </div>
                   </div>
