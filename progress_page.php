@@ -23,11 +23,8 @@
 </head>
 <body>
 	<div class="size1 bg0 where1-parent">
-		<!-- Coutdown -->
-		<div class="flex-c-m bg-img1 size2 where1 overlay1 where2 respon2" style="background-image: url('assets/img/bg01.jpg');">
+		<div class="flex-c-m bg-img1 size2 where1 overlay1 where2 respon2" style="background-image: url('assets/img/main-background.jpg');">
 		</div>
-		
-		<!-- Form -->
 		<div class="size3 flex-col-sb flex-w p-l-75 p-r-75 p-t-45 p-b-45 respon1">
 			<div class="wrap-pic1">
 				<a href="index.php"><img src="assets/logo/bp-logo-transparent.png" alt="LOGO"></a>
