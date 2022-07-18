@@ -32,7 +32,7 @@
 
 			<div class="p-t-50 p-b-60">
 				<p class="m1-txt1 p-b-36">
-					Hang tight! This webpage will <span class="m1-txt2"> finish soon!</span></br>Subscribe below for updates!
+					Hang tight!</br>This webpage will be<span class="m1-txt2"> finished soon!</span></br>Why don't we keep in touch?
 				</p>
 
 				<form class="contact100-form validate-form">

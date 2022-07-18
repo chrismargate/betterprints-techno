@@ -106,7 +106,7 @@
           </div>
         </div>
     </div>
-      <a href="#get-started" class="btn-get-started scrollto">Get Started</a>
+      <a href="progress_page.php" class="btn-get-started scrollto">Get Started</a>
     </div>
   </section><!-- End Hero Section -->
 
@@ -299,7 +299,7 @@
                   <li><b>In-store</b> pick up</li>
                 </ul>
                 <div class="table_btn">
-                  <a href="#" class="btn"><i class="bi bi-cart"></i> Buy Now</a>
+                  <a href="progress_page.php" class="btn"><i class="bi bi-cart"></i> Buy Now</a>
                 </div>
               </div>
             </div>
@@ -318,7 +318,7 @@
                   <li><b>5% off</b> on next subscription</li>
                 </ul>
                 <div class="table_btn">
-                  <a href="#" class="btn"><i class="bi bi-cart"></i> Buy Now</a>
+                  <a href="progress_page.php" class="btn"><i class="bi bi-cart"></i> Buy Now</a>
                 </div>
               </div>
             </div>
@@ -337,7 +337,7 @@
                   <li><b>10% off</b> on next subscription</li>
                 </ul>
                 <div class="table_btn">
-                  <a href="#" class="btn"><i class="bi bi-cart"></i> Buy Now</a>
+                  <a href="progress_page.php" class="btn"><i class="bi bi-cart"></i> Buy Now</a>
                 </div>
               </div>
             </div>
@@ -357,7 +357,7 @@
                   <li><b>10% off</b> on next subscription</li>
                 </ul>
                 <div class="table_btn">
-                  <a href="#" class="btn"><i class="bi bi-cart"></i> Buy Now</a>
+                  <a href="progress_page.php" class="btn"><i class="bi bi-cart"></i> Buy Now</a>
                 </div>
               </div>
             </div>
@@ -488,6 +488,10 @@
     <!-- ======= About Us Section ======= -->
     <section id="about-us" class="padd-section text-center">
       <div class="container" data-aos="fade-up">
+        <div class="section-title text-center">
+          <h2>About Us</h2>
+          <p class="separator">See through the lense of our business, what drives BetterPrints and what direction it aims to take</p>
+        </div>
         <div class="row justify-content-center">
 
           <div class="col-md-8">
@@ -687,10 +691,25 @@
             <h4>BetterPrints</br>Values</h4>
 
             <ul class="list-unstyled">
-              <li><a href="#">Terms & Conditions</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="progress_page.php">Ingenuity</a></li>
+              <li><a href="progress_page.php">Assurance</a></li>
+              <li><a href="progress_page.php">Partnership</a></li>
+              <!-- <li><a href="progress_page.php">Privacy Policy</a></li> -->
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-2">
+          <div class="list-menu">
+
+            <h4>Store</h4>
+
+            <ul class="list-unstyled">
+              <li><a href="progress_page.php">Financing</a></li>
+              <li><a href="progress_page.php">Order Status</a></li>
+              <li><a href="progress_page.php">Sales & Refunds</a></li>
+              <li><a href="progress_page.php">Shopping Help</a></li>
             </ul>
 
           </div>
@@ -702,25 +721,10 @@
             <h4>Support</h4>
 
             <ul class="list-unstyled">
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Features item</a></li>
-              <li><a href="#">Live streaming</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-md-3 col-lg-2">
-          <div class="list-menu">
-
-            <h4>Support</h4>
-
-            <ul class="list-unstyled">
-              <li><a href="#">faq</a></li>
-              <li><a href="#">Terms & Agreement</a></li>
-              <li><a href="#">Contact us</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="progress_page.php">Job Opportunities</a></li>
+              <li><a href="progress_page.php">Crowdfunding</a></li>
+              <li><a href="progress_page.php">Retailers</a></li>
+              <li><a href="progress_page.php">Suppliers</a></li>
             </ul>
 
           </div>
@@ -732,10 +736,10 @@
             <h4>About BetterPrints</h4>
 
             <ul class="list-unstyled">
-              <li><a href="#">Frequently Asked Questions</a></li>
-              <li><a href="#">Terms & Conditions</a></li>
-              <li><a href="#">Ethics & Compliance</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="progress_page.php">Frequently Asked Questions</a></li>
+              <li><a href="progress_page.php">Terms of Use</a></li>
+              <li><a href="progress_page.php">Ethics & Compliance</a></li>
+              <li><a href="progress_page.php">Privacy Policy</a></li>
             </ul>
 
           </div>
