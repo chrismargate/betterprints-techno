@@ -28,7 +28,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/index.css?v=3" rel="stylesheet">
+  <link href="assets/css/index.css?v=1" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: eStartup - v4.7.1
@@ -104,7 +104,7 @@
               <div class="hero-introduction-content">
                   <div class="top-top">
                     <!-- <h2>Our Users Speack volumes us</h2> -->
-                    <p>BetterPrints is a technology company that seeks to integrate new technologies in the digital printing industry, with the purpose of solving logistic inefficiency, high overhead costs as well as information and data security risks</p>
+                    <p>BetterPrints is a technology company that seeks to fill the gaps and limitations in the printing industry by bridging the digital gap and implementing new technologies, creating a more sustainable future for printing and solving logistic inefficiency, high overhead costs, data security risks and more</p>
                     <!-- <h4>Kimberly Tran<span>manager</span></h4> -->
                   </div>
               </div>
@@ -124,8 +124,8 @@
       <div class="container" data-aos="fade-up">
         <div class="section-title text-center">
 
-          <h2>simple systeme fordiscount </h2>
-          <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+          <h2>Learn more about the business!</h2>
+          <p class="separator">Get more into detail with what the business has in-store, through documents that includes marketing and technical plans, handbooks, etc. to satisfy your curiosity</p>
 
         </div>
       </div>
@@ -137,9 +137,9 @@
             <div class="feature-block">
 
               <img src="assets/img/svg/cloud.svg" alt="img">
-              <h4>introducing whatsapp</h4>
+              <h4>Marketing Plan</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-              <a href="#">read more</a>
+              <a href="assets/pdf/employee-handbook.pdf">read more</a>
 
             </div>
           </div>
@@ -148,7 +148,7 @@
             <div class="feature-block">
 
               <img src="assets/img/svg/planet.svg" alt="img">
-              <h4>user friendly interface</h4>
+              <h4>Technical Plan</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
               <a href="#">read more</a>
 
@@ -159,7 +159,7 @@
             <div class="feature-block">
 
               <img src="assets/img/svg/asteroid.svg" alt="img">
-              <h4>build the app everyone love</h4>
+              <h4>Employee Handbook</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
               <a href="#">read more</a>
 
@@ -258,7 +258,7 @@
             <div class="service-block">
               <img src="assets/img/svg/booking.png" alt="img">
               <h4>mobile compatibility</h4>
-              <p>Access our website and have you documents printed wherever you go</p>
+              <p>Access our website and have your documents printed wherever you go</p>
             </div>
           </div>
 
