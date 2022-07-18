@@ -118,8 +118,8 @@
       <div class="container" data-aos="fade-up">
         <div class="section-title text-center">
 
-          <h2>Learn more about the business!</h2>
-          <p class="separator">Get more into detail with what the business has in-store, through documents that includes marketing and technical plans, handbooks, etc. to satisfy your curiosity</p>
+          <h2>Learn more about our business!</h2>
+          <p class="separator">Get more into detail with what our business has in-store, through documents that include marketing and technical plans, handbooks, etc. to satisfy your curiosity</p>
 
         </div>
       </div>
@@ -130,9 +130,9 @@
           <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="feature-block">
 
-              <img src="assets/img/svg/cloud.svg" alt="img">
+              <img src="assets/img/svg/bullhorn.png" alt="img">
               <h4>Marketing Plan</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <p>Find out who our target demographic is and how we wish to sell our product and services</p>
               <a href="assets/pdf/employee-handbook.pdf">read more</a>
 
             </div>
@@ -141,10 +141,10 @@
           <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="feature-block">
 
-              <img src="assets/img/svg/planet.svg" alt="img">
+              <img src="assets/img/svg/wrench.png" alt="img">
               <h4>Technical Plan</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-              <a href="#">read more</a>
+              <p>Be enlightened of how we determine the efficacy of our business, including the materials, labor, logistics, technology, etc.</p>
+              <a href="assets/pdf/technical-plan.pdf">read more</a>
 
             </div>
           </div>
@@ -152,10 +152,10 @@
           <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="feature-block">
 
-              <img src="assets/img/svg/asteroid.svg" alt="img">
+              <img src="assets/img/svg/employee-month.png" alt="img">
               <h4>Employee Handbook</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-              <a href="#">read more</a>
+              <p>Explore how we keep our employees satisfied through our labor policies and overall organizational structure</p>
+              <a href="assets/pdf/employee-handbook.pdf">read more</a>
 
             </div>
           </div>
@@ -500,10 +500,10 @@
                   <div class="carousel-item  active">
                     <div class="top-top">
 
-                      <h2>Our Users Speack volumes us</h2>
+                      <h2>Vision</h2>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
                         specimen book. It has survived not only five centuries.</p>
-                      <h4>Kimberly Tran<span>manager</span></h4>
+                      <!-- <h4>Kimberly Tran<span>manager</span></h4> -->
 
                     </div>
                   </div>
