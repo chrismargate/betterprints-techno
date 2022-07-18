@@ -45,8 +45,8 @@
      
       <h1>Welcome to our group website!</h1>
       <h2>Please choose a subject:</h2>
-      <a href="#about" class="btn-get-started">Technopreneurship - BetterPrints</a>
-      <a href="#about" class="btn-get-started">Information Assurance & Security - ACare Appointment System</a>
+      <a href="#" class="btn-get-started">Technopreneurship - BetterPrints</a>
+      <a href="#" class="btn-get-started">Information Assurance & Security - ACare Appointment System</a>
       <video class="back-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
         <source src="assets/video/sunset-woods.mp4" type="video/mp4">
       </video>
