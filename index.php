@@ -57,8 +57,8 @@
           <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
           <li><a class="nav-link scrollto" href="#about-us">Franchise</a></li>
           <li><a class="nav-link scrollto" href="#screenshots">Branches</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">About Us</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">Contact Us</a></li>
+          <li><a class="nav-link scrollto" href="#about-us">About Us</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -98,7 +98,7 @@
               <div class="hero-introduction-content">
                   <div class="top-top">
                     <!-- <h2>Our Users Speack volumes us</h2> -->
-                    <p>BetterPrints is a technology company that seeks to fill the gaps and limitations in the printing industry by bridging the digital gap and implementing new technologies, creating a more sustainable future for printing and solving logistic inefficiency, high overhead costs, data security risks and more</p>
+                    <p>BetterPrints is a technology company that seeks to fill the gaps and limitations in the printing industry by bridging the digital gap and implementing new technologies, creating a more sustainable future for printing and solving logistic inefficiency, high overhead costs, data security risks and more.</p>
                     <!-- <h4>Kimberly Tran<span>manager</span></h4> -->
                   </div>
               </div>
@@ -119,7 +119,7 @@
         <div class="section-title text-center">
 
           <h2>Learn more about our business!</h2>
-          <p class="separator">Get more into detail with what our business has in-store, through documents that include marketing and technical plans, handbooks, etc. to satisfy your curiosity</p>
+          <p class="separator">Get more into detail with what our business has in-store, through documents that include marketing and technical plans, handbooks, etc. to satisfy your curiosity.</p>
 
         </div>
       </div>
@@ -203,7 +203,7 @@
       <div class="container" data-aos="fade-up">
         <div class="section-title text-center">
           <h2>Services</h2>
-          <p class="separator">Only the best features and services for the best customers</p>
+          <p class="separator">Only the best features and services for the best customers.</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -283,7 +283,7 @@
         <div class="section-title text-center">
 
           <h2>Pricing</h2>
-          <p class="separator">Explore our different packages and choose based on your preference and needs</p>
+          <p class="separator">Explore our different packages and choose based on your preference and needs.</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -485,14 +485,14 @@
     </section> -->
     <!-- End Team Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="padd-section text-center">
+    <!-- ======= About Us Section ======= -->
+    <section id="about-us" class="padd-section text-center">
       <div class="container" data-aos="fade-up">
         <div class="row justify-content-center">
 
           <div class="col-md-8">
 
-            <div class="testimonials-content">
+            <div class="about-us-content">
               <div id="carousel-example-generic" class="carousel slide" data-bs-ride="carousel">
 
                 <div class="carousel-inner" role="listbox">
@@ -611,8 +611,8 @@
 
       <div class="container" data-aos="fade-up">
         <div class="section-title text-center">
-          <h2>Contact</h2>
-          <p class="separator">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <h2>Contact Us</h2>
+          <p class="separator">Let's keep in touch! Information below are the easiest ways for you to reach us.</p>
         </div>
 
         <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
@@ -622,27 +622,19 @@
             <div class="info">
               <div>
                 <i class="bi bi-geo-alt"></i>
-                <p>A108 Adam Street<br>New York, NY 535022</p>
+                <p>1178 Asuncion Street <br>Tondo, Metro Manila 1012</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
-                <p>info@example.com</p>
+                <p>chrissamuel231@gmail.com</p>
               </div>
 
               <div>
                 <i class="bi bi-phone"></i>
-                <p>+1 5589 55488 55s</p>
+                <p>+639089232658</p>
               </div>
             </div>
-
-            <div class="social-links">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-            </div>
-
           </div>
 
           <div class="col-lg-5 col-md-8">
@@ -683,8 +675,8 @@
         <div class="col-md-12 col-lg-4">
           <div class="footer-logo">
 
-            <a class="navbar-brand" href="#">eStartup</a>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
+            <a class="navbar-brand" href="#">BetterPrints</a>
+            <p>BetterPrints is a tech company that provides licensing under a cloud-based printing service platform to SMEs.</p>
 
           </div>
         </div>
@@ -692,12 +684,12 @@
         <div class="col-sm-6 col-md-3 col-lg-2">
           <div class="list-menu">
 
-            <h4>Abou Us</h4>
+            <h4>BetterPrints</br>Values</h4>
 
             <ul class="list-unstyled">
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
               <li><a href="#">About us</a></li>
-              <li><a href="#">Features item</a></li>
-              <li><a href="#">Live streaming</a></li>
               <li><a href="#">Privacy Policy</a></li>
             </ul>
 
@@ -707,7 +699,7 @@
         <div class="col-sm-6 col-md-3 col-lg-2">
           <div class="list-menu">
 
-            <h4>Abou Us</h4>
+            <h4>Support</h4>
 
             <ul class="list-unstyled">
               <li><a href="#">About us</a></li>
@@ -726,7 +718,7 @@
 
             <ul class="list-unstyled">
               <li><a href="#">faq</a></li>
-              <li><a href="#">Editor help</a></li>
+              <li><a href="#">Terms & Agreement</a></li>
               <li><a href="#">Contact us</a></li>
               <li><a href="#">Privacy Policy</a></li>
             </ul>
@@ -737,12 +729,12 @@
         <div class="col-sm-6 col-md-3 col-lg-2">
           <div class="list-menu">
 
-            <h4>Abou Us</h4>
+            <h4>About BetterPrints</h4>
 
             <ul class="list-unstyled">
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Features item</a></li>
-              <li><a href="#">Live streaming</a></li>
+              <li><a href="#">Frequently Asked Questions</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Ethics & Compliance</a></li>
               <li><a href="#">Privacy Policy</a></li>
             </ul>
 
