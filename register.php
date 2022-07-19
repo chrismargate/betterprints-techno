@@ -1,5 +1,38 @@
 <?php
+    include "config/database.php";
+    include "config/input_checking.php";
 
+    if(isset($_POST["register"])){
+        $username = $_POST["username"];
+        $password = $_POST["password"];
+        $fname = $_POST["fname"];
+        $lname = $_POST["lname"];
+        $address = $_POST["address1"] . $_POST["address2"];
+        $contactNumber = $_POST["contactNumber"];
+        $email = $_POST["email"];
+
+        $requiredFields = array($username,$password,$fname,$lname,$address,$email,$contactNumber);
+        print_r($requiredFields);
+
+        if(emptyFields($requiredFields)){
+            echo "<h1>There was a required field you left blank. Please check again before submitting.</h1>";
+        }else{
+
+            $conn = newConnection();
+
+            $sqlQuery = "INSERT INTO customers_T (username, password, fname, lname, email_address, contact_number,address) VALUES ('$username', '$password', '$fname','$lname','$email', '$contactNumber','$address')";
+
+            if($conn->query($sqlQuery) === TRUE){
+                echo "<h1>You have registered successfully!</h1>";
+                header("Location: index.php");
+            }else {
+                echo "Error: " . $sqlQuery . "<br>" . $conn->error;
+                header("Locatio : register.php");
+            }
+            $conn->close();
+        }
+
+    }
 
 ?>
 
@@ -19,7 +52,8 @@
 
     <!-- Icons font CSS-->
     <link href="assets/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
-    <link href="assets/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="assets/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">\
+
     <!-- Font special for pages-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 
@@ -87,7 +121,7 @@
                             <div class="name">Email</div>
                             <div class="value">
                                 <div class="input-group">
-                                    <input class="input--style-5" type="email" name="email">
+                                    <input class="input--style-5" type="text" name="email">
                                 </div>
                             </div>
                         </div>
@@ -95,7 +129,7 @@
                             <div class="name">Address Line 1</div>
                             <div class="value">
                                 <div class="input-group">
-                                    <input class="input--style-5" type="email" name="address1">
+                                    <input class="input--style-5" type="text" name="address1">
                                 </div>
                             </div>
                         </div>
@@ -103,7 +137,7 @@
                             <div class="name">Address Line 2</div>
                             <div class="value">
                                 <div class="input-group">
-                                    <input class="input--style-5" type="email" name="address2">
+                                    <input class="input--style-5" type="text" name="address2">
                                 </div>
                             </div>
                         </div>
@@ -114,54 +148,9 @@
                                     <input class="input--style-5" type="text" name="contactNumber">
                                 </div>
                             </div>
-                            <!-- <div class="value">
-                                <div class="row row-refine">
-                                    <div class="col-3">
-                                        <div class="input-group-desc">
-                                            <input class="input--style-5" type="text" name="area_code">
-                                            <label class="label--desc">Area Code</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-9">
-                                        <div class="input-group-desc">
-                                            <input class="input--style-5" type="text" name="phone">
-                                            <label class="label--desc">Phone Number</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
                         </div>
-                        <!-- <div class="form-row">
-                            <div class="name">Subject</div>
-                            <div class="value">
-                                <div class="input-group">
-                                    <div class="rs-select2 js-select-simple select--no-search">
-                                        <select name="subject">
-                                            <option disabled="disabled" selected="selected">Choose option</option>
-                                            <option>Subject 1</option>
-                                            <option>Subject 2</option>
-                                            <option>Subject 3</option>
-                                        </select>
-                                        <div class="select-dropdown"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
-                        <!-- <div class="form-row p-t-20">
-                            <label class="label label--block">Are you an existing customer?</label>
-                            <div class="p-t-15">
-                                <label class="radio-container m-r-55">Yes
-                                    <input type="radio" checked="checked" name="exist">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label class="radio-container">No
-                                    <input type="radio" name="exist">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </div>
-                        </div> -->
                         <div>
-                            <button class="btn btn--radius-2 btn--red" type="submit" name="Regiser">Register</button>
+                            <button class="btn btn--radius-2 btn--red" type="submit" name="register">Register</button>
                         </div>
                     </form>
                 </div>

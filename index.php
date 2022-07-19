@@ -135,7 +135,7 @@
               <img src="assets/img/svg/bullhorn.png" alt="img">
               <h4>Marketing Plan</h4>
               <p>Find out who our target demographic is and how we wish to sell our product and services</p>
-              <a href="assets/pdf/employee-handbook.pdf">read more</a>
+              <a href="assets/pdf/marketing-plan.pdf">read more</a>
 
             </div>
           </div>

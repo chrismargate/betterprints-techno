@@ -1132,11 +1132,13 @@ body {
       width: 100%;
     }
   }
+
   #newsletter .form-control:focus {
     border-color: #71c55d;
     box-shadow: none;
     outline: 0 none;
   }
+  
   #newsletter .btn {
     background: #71c55d;
     border: 0;
@@ -1145,22 +1147,27 @@ body {
     width: 30%;
     transition: 0.3s;
   }
+
   @media (max-width: 575px) {
     #newsletter .btn {
       width: 100%;
     }
   }
+
   #newsletter .btn:hover {
     background: #55b03f;
   }
+
   #newsletter .btn .fa {
     padding-right: 10px;
   }
+
   #newsletter ul {
     display: inline-block;
     margin-top: 40px;
     margin-bottom: 0;
   }
+  
   #newsletter ul li {
     background: #71c55d;
     border-radius: 50px;
