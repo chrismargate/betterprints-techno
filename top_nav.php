@@ -16,10 +16,10 @@
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Top Navigation Bar</title>
+    <!-- <title>Top Navigation Bar</title> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- EXTERNAL CSS FILE -->
-    <!-- <link href="assets/css/top_nav.css" rel="stylesheet"> -->
+    <link href="assets/css/top_nav.css" rel="stylesheet">
     </head>
     <body>
     <!-- START CODE HERE -->
@@ -36,7 +36,7 @@
             <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
-            <button type="button" onclick="logoutFunction()" class="btn btn-outline-success" style="--bs-btn-padding-y: .1rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;" name="main-btn">Go to Main Page</button>
+            <button type="button" onclick="goToMainFunction()" class="btn btn-outline-success" style="--bs-btn-padding-y: .1rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;" name="main-btn">Go to Main Page</button>
             <!-- <span class="navbar-text ps-4 pe-4"> -->
                 <?php
                 echo '<span class="navbar-text ps-4 pe-4">Hello, '. $_SESSION['username'] . ' </span>';
