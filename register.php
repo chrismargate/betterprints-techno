@@ -12,12 +12,10 @@
         $email = $_POST["email"];
 
         $requiredFields = array($username,$password,$fname,$lname,$address,$email,$contactNumber);
-        print_r($requiredFields);
 
         if(emptyFields($requiredFields)){
             echo "<h1>There was a required field you left blank. Please check again before submitting.</h1>";
         }else{
-
             $conn = newConnection();
 
             $sqlQuery = "INSERT INTO customers_T (username, password, fname, lname, email_address, contact_number,address) VALUES ('$username', '$password', '$fname','$lname','$email', '$contactNumber','$address')";
@@ -27,11 +25,10 @@
                 header("Location: index.php");
             }else {
                 echo "Error: " . $sqlQuery . "<br>" . $conn->error;
-                header("Locatio : register.php");
+                header("Location: register.php");
             }
             $conn->close();
         }
-
     }
 
 ?>

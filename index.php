@@ -1,5 +1,6 @@
 <?php
     // include "top_nav.php";
+    session_start();
 ?>
 
 <!DOCTYPE html>
@@ -28,7 +29,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/index.css?v=1" rel="stylesheet">
+  <link href="assets/css/index.css?v=3" rel="stylesheet">
 
 </head>
 
@@ -59,8 +60,19 @@
           <li><a class="nav-link scrollto" href="#screenshots">Branches</a></li>
           <li><a class="nav-link scrollto" href="#about-us">About Us</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
-          <li><a class="nav-link scrollto" href="register.php">Register</a></li>
-          <li><a class="nav-link scrollto" href="login.php">Login</a></li>
+          <?php
+          if(isset($_SESSION['username'])){
+            echo '<li><a class="nav-link scrollto" href="progress_page.php">Go to Dashboard</a></li>';
+            $greetingUsername = $_SESSION['username'];
+            $greeting = '<li><a class="nav-link scrollto" href="logout.php">Hello, ' . $greetingUsername . ' </a></li>';
+            echo $greeting;
+            echo '<li><a class="nav-link scrollto" href="logout.php">Logout</a></li>';
+          }else{
+            echo '<li><a class="nav-link scrollto" href="register.php">Register</a></li>';
+            echo '<li><a class="nav-link scrollto" href="login.php">Login</a></li>';
+          }
+          
+          ?>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>

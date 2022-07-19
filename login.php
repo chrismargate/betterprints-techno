@@ -2,6 +2,7 @@
     include "config/database.php";
     include "config/input_checking.php";
 
+	session_start();
     if(isset($_POST["login"])){
 
         $username = $_POST["username"];
@@ -24,6 +25,7 @@
 
             if(mysqli_num_rows($sqlResults) > 0){
                 echo "<h1>Exists</h1>";
+				$_SESSION['username'] = $username;
 				header("Location: index.php");
             }
 			// echo "something";
