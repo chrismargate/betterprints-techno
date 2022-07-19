@@ -1,6 +1,8 @@
 <?php
-    // include "config/database.php";
-    // include "config/input_checking.php";
+    include "config/database.php";
+    include "config/input_checking.php";
+
+	echo "<h1>Pass 1</h1>";
 
     if(isset($_POST["login"])){
 
@@ -12,7 +14,8 @@
         if(emptyFields($requiredFields)){
             echo "<h1>Please enter the username and password.</h1>";
         }else{
-
+			
+			echo "<h1>Pass 2</h1>";
             // if
 
             // $conn = new mysqli(DB_HOST,DB_USER,DB_PASS,DB_NAME);
@@ -20,11 +23,13 @@
             $conn = newConnection();
             $sqlQuery = "SELECT * FROM customers_T WHERE username = '$username'";
             $sqlResults = mysqli_query($conn,$sqlQuery);
-            // $arrayResult = mysqli_fetch_all($sqlResults, MYSQLI_ASSOC)[0];
+            $arrayResult = mysqli_fetch_all($sqlResults, MYSQLI_ASSOC)[0];
 
             if(mysqli_num_rows($sqlResults) > 0){
                 echo "<h1>Exists</h1>";
+				header("Location: index.php");
             }
+			// echo "something";
             
             // if($arrayResult)
             // if($conn->query($sqlQuery) === TRUE){
@@ -49,7 +54,7 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	
-	<link rel="stylesheet" href="assets/css/login.css?v=1">
+	<link rel="stylesheet" href="assets/css/login.css?v=2">
 
 	</head>
 	<body>
@@ -74,14 +79,14 @@
 								</p>
 							</div> -->
 		      	</div>
-						<form action="#" class="login-form">
+						<form action="<?php echo $_SERVER['PHP_SELF'] ?>" class="login-form" method="POST">
 		      		<div class="form-group">
 		      			<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-user"></span></div>
-		      			<input type="text" class="form-control rounded-left" placeholder="Username" required>
+		      			<input type="text" class="form-control rounded-left" placeholder="Username" name="username" required>
 		      		</div>
 	            <div class="form-group">
 	            	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-lock"></span></div>
-	              <input type="password" class="form-control rounded-left" placeholder="Password" required>
+	              <input type="password" class="form-control rounded-left" placeholder="Password" name="password" required>
 	            </div>
 	            <div class="form-group d-flex align-items-center">
 	            	<div class="w-100">
@@ -91,7 +96,7 @@
 									</label>
 								</div>
 								<div class="w-100 d-flex justify-content-end">
-		            	<button type="submit" class="btn btn-primary rounded submit">Login</button>
+		            	<button type="submit" class="btn btn-primary rounded submit" name="login">Login</button>
 	            	</div>
 	            </div>
 	            <div class="form-group mt-4">

@@ -1,6 +1,6 @@
 <?php
 
-    include "config/database.php";
+    // include "config/database.php";
 
     function emptyFields($inputArray){
         foreach($inputArray as $arrayElement){
