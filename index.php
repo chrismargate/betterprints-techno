@@ -62,10 +62,10 @@
           <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
           <?php
           if(isset($_SESSION['username'])){
-            echo '<li><a class="nav-link scrollto" href="progress_page.php">Go to Dashboard</a></li>';
-            $greetingUsername = $_SESSION['username'];
-            $greeting = '<li><a class="nav-link scrollto" href="logout.php">Hello, ' . $greetingUsername . ' </a></li>';
-            echo $greeting;
+            echo '<li><a class="nav-link scrollto" href="dashboard.php">Go to Dashboard</a></li>';
+            // $greetingUsername = $_SESSION['username'];
+            // $greeting = '<li><a class="nav-link scrollto" href="logout.php">Hello, ' . $greetingUsername . ' </a></li>';
+            // echo $greeting;
             echo '<li><a class="nav-link scrollto" href="logout.php">Logout</a></li>';
           }else{
             echo '<li><a class="nav-link scrollto" href="register.php">Register</a></li>';

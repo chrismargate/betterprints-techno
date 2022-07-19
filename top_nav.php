@@ -1,7 +1,14 @@
 <?php
+    session_start();
 
+    if(isset($_POST['logout'])){
+        echo "<h1>Sample</h1>";
+    }
 
-
+    // function sampleFunc(){
+    //     header("Location: logout.php");
+    // }
+    
 ?> 
 
 <!doctype html>
@@ -29,14 +36,30 @@
             <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
-            <button type="button" class="btn btn-outline-success"  style="--bs-btn-padding-y: .1rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Go to Main Page</button>
-            <span class="navbar-text ps-4 pe-4">
-                Hello, Jemma
-            </span>
+            <button type="button" onclick="logoutFunction()" class="btn btn-outline-success" style="--bs-btn-padding-y: .1rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;" name="main-btn">Go to Main Page</button>
+            <!-- <span class="navbar-text ps-4 pe-4"> -->
+                <?php
+                echo '<span class="navbar-text ps-4 pe-4">Hello, '. $_SESSION['username'] . ' </span>';
+                ?>
+                 <!-- Hello, Jemma
+             </span> -->
             <li class="nav-item">
-                <a class="nav-link pe-4" aria-current="page" href="#">Settings</a>
+                <a class="nav-link pe-4" aria-current="page" href="progress_page.php">Settings</a>
             </li>
-            <button class="btn btn-outline-danger btn-sm px-3 rounded-pill" style="--bs-btn-padding-y: .1rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;" type="logout">Logout</button>
+            <!-- <form method="POST"> -->
+                <button onclick="logoutFunction()" class="btn btn-outline-danger btn-sm px-3 rounded-pill" style="--bs-btn-padding-y: .1rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;" type="button" name="logout">Logout</button>
+                <script>
+                    function logoutFunction(){
+                        window.location="logout.php";
+                    }
+
+                    function goToMainFunction(){
+                        window.location="index.php";
+                    }
+
+                    functin
+                </script>
+            <!-- </form> -->
             </ul>
             </div>
         </div>
