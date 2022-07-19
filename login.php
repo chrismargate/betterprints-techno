@@ -2,8 +2,6 @@
     include "config/database.php";
     include "config/input_checking.php";
 
-	echo "<h1>Pass 1</h1>";
-
     if(isset($_POST["login"])){
 
         $username = $_POST["username"];
@@ -14,8 +12,7 @@
         if(emptyFields($requiredFields)){
             echo "<h1>Please enter the username and password.</h1>";
         }else{
-			
-			echo "<h1>Pass 2</h1>";
+
             // if
 
             // $conn = new mysqli(DB_HOST,DB_USER,DB_PASS,DB_NAME);
