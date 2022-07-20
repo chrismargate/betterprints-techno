@@ -26,7 +26,7 @@
 
     <nav class="navbar navbar-expand-lg bg-light bg-transparent ps-3">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.php">
                 <img src="assets/logo/bp-logo-transparent.png" alt="" width="80" height="70">
             </a>
             <!-- <a class="navbar-brand ps-2" href="#">BetterPrints</a> -->

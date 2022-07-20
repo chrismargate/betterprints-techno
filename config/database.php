@@ -6,7 +6,7 @@
             if($conn->connect_error){
                 die("Connection failed $conn->connect_error");
             }else{
-                echo "LOCAL HOST CONNECTED!";
+                // echo "LOCAL HOST CONNECTED!";
             }
             return $conn;
         }
@@ -15,7 +15,7 @@
             if($conn->connect_error){
                 die("Connection failed $conn->connect_error");
             }else{
-                echo "HOSTINGER CONNECTED!";
+                // echo "HOSTINGER CONNECTED!";
             }
             return $conn;
         }

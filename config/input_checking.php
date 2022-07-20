@@ -111,6 +111,21 @@
         return false;
     }
 
+    function correctPassword($username,$password){
+
+        $conn = newConnection();
+
+        $sqlQuery = "SELECT * FROM customers_T WHERE username = '$username' AND password='$password'";
+        $sqlResults = mysqli_query($conn,$sqlQuery);
+
+        $conn->close();
+        if(mysqli_num_rows($sqlResults) > 0){
+            return true;
+        }
+
+        return false;
+    }
+
     function existingEmail($inputString){
         
         $conn = newConnection();

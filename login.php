@@ -11,23 +11,38 @@
         $requiredFields = array($username,$password);
 
         if(emptyFields($requiredFields)){
-            echo "<h1>Please enter the username and password.</h1>";
-        }else{
+            echo "<h1>Please enter a username and password.</h1>";
+        }elseif(existingUsername($username)){
+			if(correctPassword($username,$password)){
+				$_SESSION['username'] = $username;
+				header("Location: index.php");
+			}else{
+				echo "<h1>Incorrect password. Please try again!</h1>";
+			}
+			
+			// header
 
-            // if
+		}else{
+			
+			echo "<h1>Please enter a valid usernmae</h1>";
 
             // $conn = new mysqli(DB_HOST,DB_USER,DB_PASS,DB_NAME);
 
-            $conn = newConnection();
-            $sqlQuery = "SELECT * FROM customers_T WHERE username = '$username'";
-            $sqlResults = mysqli_query($conn,$sqlQuery);
-            $arrayResult = mysqli_fetch_all($sqlResults, MYSQLI_ASSOC)[0];
 
-            if(mysqli_num_rows($sqlResults) > 0){
-                echo "<h1>Exists</h1>";
-				$_SESSION['username'] = $username;
-				header("Location: index.php");
-            }
+
+            // $conn = newConnection();
+            // $sqlQuery = "SELECT * FROM customers_T WHERE username = '$username'";
+            // $sqlResults = mysqli_query($conn,$sqlQuery);
+            // $arrayResult = mysqli_fetch_all($sqlResults, MYSQLI_ASSOC)[0];
+
+            // if(mysqli_num_rows($sqlResults) > 0){
+            //     echo "<h1>Exists</h1>";
+			// 	$_SESSION['username'] = $username;
+			// 	header("Location: index.php");
+            // }
+
+
+
 			// echo "something";
             
             // if($arrayResult)
@@ -74,12 +89,6 @@
 		      		<div class="w-100">
 		      			<h3 class="mb-4">Sign In</h3>
 		      		</div>
-							<!-- <div class="w-100">
-								<p class="social-media d-flex justify-content-end">
-									<a href="#" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a>
-									<a href="#" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a>
-								</p>
-							</div> -->
 		      	</div>
 						<form action="<?php echo $_SERVER['PHP_SELF'] ?>" class="login-form" method="POST">
 		      		<div class="form-group">
@@ -103,8 +112,8 @@
 	            </div>
 	            <div class="form-group mt-4">
 								<div class="w-100 text-center">
-									<p class="mb-1">Don't have an account? <a href="#">Sign Up</a></p>
-									<p><a href="#">Forgot Password</a></p>
+									<p class="mb-1">Don't have an account? <a href="register.php">Sign Up</a></p>
+									<p><a href="progress_page.php">Forgot Password</a></p>
 								</div>
 	            </div>
 	          </form>
@@ -114,9 +123,11 @@
 		</div>
 	</section>
 
+	
+
 	<script src="js/jquery.min.js"></script>
-  <script src="js/popper.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script> -->
