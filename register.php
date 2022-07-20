@@ -14,7 +14,7 @@
         $requiredFields = array($username,$password,$fname,$lname,$address,$email,$contactNumber);
 
         if(emptyFields($requiredFields)){
-            echo "<h1>There was a required field you left blank. Please check again before submitting.</h1>";
+            // echo "<h1>There was a required field you left blank. Please check again before submitting.</h1>";
         }else{
             $conn = newConnection();
 

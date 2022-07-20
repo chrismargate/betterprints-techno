@@ -10,21 +10,18 @@
 
         $requiredFields = array($username,$password);
 
-        if(emptyFields($requiredFields)){
-            echo "<h1>Please enter a username and password.</h1>";
-        }elseif(existingUsername($username)){
+        if(existingUsername($username)){
 			if(correctPassword($username,$password)){
 				$_SESSION['username'] = $username;
 				header("Location: index.php");
 			}else{
+
 				echo "<h1>Incorrect password. Please try again!</h1>";
 			}
-			
-			// header
 
 		}else{
-			
-			echo "<h1>Please enter a valid usernmae</h1>";
+	
+			echo "<h1>Please enter a valid username</h1>";
 
             // $conn = new mysqli(DB_HOST,DB_USER,DB_PASS,DB_NAME);
 
@@ -107,7 +104,7 @@
 									</label>
 								</div>
 								<div class="w-100 d-flex justify-content-end">
-		            	<button type="submit" class="btn btn-primary rounded submit" name="login">Login</button>
+		            	<button type="submit" class="btn btn-primary rounded submit" onclick="showModal()" name="login">Login</button>
 	            	</div>
 	            </div>
 	            <div class="form-group mt-4">
@@ -123,7 +120,61 @@
 		</div>
 	</section>
 
+	<!-- MODAL AND TOASTS -->
+	<div aria-live="polite" aria-atomic="true" style="position: relative; min-height: 200px;">
+        <div class="toast" id="username-error-toast" role="alert" aria-atomic="true" data-autohide="false" style="position: fixed; left: 50%; transform: translate(-50%, 0px); z-index: 9999;">
+            <div class="toast-header">
+                <strong class="mr-auto text-primary">Login Error</strong>
+            </div>
+            <div class="toast-body">
+                Please enter a valid username.
+            </div>
+        </div>
+        <div class="toast" id="incorrect-error-toast" role="alert" aria-atomic="true" data-autohide="false" style="position: absolute; top: 0; right: 0;">
+            <div class="toast-header">
+                <strong class="mr-auto text-primary">Login Error</strong>
+            </div>
+            <div class="toast-body">
+                Your password was incorrect. Please try again.
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="modal fade" id="reg-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Log-in successful</h5>
+                <!-- <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span> -->
+                </button>
+            </div>
+            <div class="modal-body">
+                You have logged in successfully!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Proceed</button>
+                <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+            </div>
+            </div>
+        </div>
+    </div>
+
+	<script>
 	
+	function showModal() {
+		$('#reg-modal').modal('show');
+	}
+
+    function showUsernameToast() {
+        $('#username-error-toast').toast('show');
+    }
+    function showIncorrectToast() {
+        $('#incorrect-error-toast').toast('show');
+    }
+	</script>
+
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/popper.js"></script>

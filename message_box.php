@@ -11,7 +11,7 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-    <link href="assets/css/message_box.css" rel="stylesheet">
+    <!-- <link href="assets/css/message_box.css" rel="stylesheet"> -->
 </head>
 <body>
 
@@ -21,38 +21,36 @@
     </button> -->
 
     <!-- Modal -->
-    <script type="text/javascript">
+    <script>
     window.onload = function () {
-        showToast();
+        showModal();
     };
 
     function showModal() {
-        $("#reg-modal").modal('show');
+        $('#reg-modal').modal('show');
     }
-    function showToast() {
-        $(".toast").toast('show');
+    function showUsernameToast() {
+        $('#username-error-toast').toast('show');
     }
-    // function Toasty(){
-    //     var option = {
-    //         animation: true,
-    //         delay: 2000
-    //     };
-
-    //     var toastHTMLelement = document.getElementById("login-toast");
-    //     var toastElement = new boostrap.Toast(toastHTMLElement);
-    //     toastElement.show();
-    // }
+    function showIncorrectToast() {
+        $('#incorrect-error-toast').toast('show');
+    }
     </script>
-    <div class="container">
-        <div class="toast" id="login-toast" role="alert" aria-atomic="true" data-autohide="false">
+    <div aria-live="polite" aria-atomic="true" style="position: relative; min-height: 200px;">
+        <div class="toast" id="username-error-toast" role="alert" aria-atomic="true" data-autohide="false" style="position: fixed; left: 50%; transform: translate(-50%, 0px); z-index: 9999;">
             <div class="toast-header">
-                <strong class="mr-auto text-primary">Bootstrap</strong>
-                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-                </button>
+                <strong class="mr-auto text-primary">Login Error</strong>
             </div>
             <div class="toast-body">
-                Hello, world! This is a toast message.
+                Please enter a valid username.
+            </div>
+        </div>
+        <div class="toast" id="incorrect-error-toast" role="alert" aria-atomic="true" data-autohide="false" style="position: absolute; top: 0; right: 0;">
+            <div class="toast-header">
+                <strong class="mr-auto text-primary">Login Error</strong>
+            </div>
+            <div class="toast-body">
+                Your password was incorrect. Please try again.
             </div>
         </div>
     </div>

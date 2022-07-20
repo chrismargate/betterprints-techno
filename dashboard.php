@@ -37,7 +37,7 @@
     </div>
 
     <!-- MINI NAV TAB -->
-    <ul class="mini-nav nav-tabs">
+    <!-- <ul class="mini-nav nav-tabs">
         <li class="nav-item">
             <a class="nav-link active" href="#">Active</a>
         </li>
@@ -50,7 +50,7 @@
         <li class="nav-item">
             <a class="nav-link disabled" href="#">Disabled</a>
         </li>
-    </ul>
+    </ul> -->
     
 
     <!-- END CODE HERE -->
