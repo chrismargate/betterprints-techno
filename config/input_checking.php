@@ -142,4 +142,16 @@
 
     }
 
+    function retrieveRecord($inputString){
+        $conn = newConnection();
+
+        $sqlQuery = "SELECT * FROM customers_T WHERE username = '$inputString'";
+        $sqlResults = mysqli_query($conn,$sqlQuery);
+        $results = mysqli_fetch_all($sqlResults,MYSQLI_ASSOC)[0];
+
+        $conn->close();
+
+        return $results;
+    }
+
 ?>

@@ -39,7 +39,7 @@
             <button type="button" onclick="goToMainFunction()" class="btn btn-outline-success" style="--bs-btn-padding-y: .1rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;" name="main-btn">Go to Main Page</button>
             <!-- <span class="navbar-text ps-4 pe-4"> -->
                 <?php
-                echo '<span class="navbar-text ps-4 pe-4">Hello, '. $_SESSION['username'] . ' </span>';
+                echo '<span class="navbar-text ps-4 pe-4">Hello, '. $_SESSION['fname'] . ' </span>';
                 ?>
                  <!-- Hello, Jemma
              </span> -->

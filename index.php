@@ -45,8 +45,6 @@
             <a href="index.php"><img src="assets/logo/bp-logo-transparent.png"/></a>
           </div>
           <div class="col">
-            <!-- <h1><a href="index.html">BetterPrints</a></h1> -->
-            <!-- <h1 class="h1-title">BetterPrints</h1> -->
           </div>
         </div>
       </div>
@@ -57,7 +55,6 @@
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
           <li><a class="nav-link scrollto" href="#franchise">Franchise</a></li>
-          <li><a class="nav-link scrollto" href="#screenshots">Branches</a></li>
           <li><a class="nav-link scrollto" href="#about-us">About Us</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
           <?php
@@ -73,29 +70,6 @@
           }
           
           ?>
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav> -->
-      <!-- .navbar -->
-
     </div>
   </header><!-- End Header -->
 
@@ -111,9 +85,7 @@
             <div class="col-md-8">
               <div class="hero-introduction-content">
                   <div class="top-top">
-                    <!-- <h2>Our Users Speack volumes us</h2> -->
                     <p>BetterPrints is a technology company that seeks to fill the gaps and limitations in the printing industry by bridging the digital gap and implementing new technologies, creating a more sustainable future for printing and solving logistic inefficiency, high overhead costs, data security risks and more.</p>
-                    <!-- <h4>Kimberly Tran<span>manager</span></h4> -->
                   </div>
               </div>
             </div>
@@ -389,11 +361,11 @@
                 <div class="swiper-slide"><img src="assets/img/screen/paper-1.png" class="img-fluid" alt=""></div>
                 <div class="swiper-slide"><img src="assets/img/screen/paper-2.png" class="img-fluid" alt=""></div>
                 <div class="swiper-slide"><img src="assets/img/screen/paper-3.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/screen/paper=4.png" class="img-fluid" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/screen/paper-4.png" class="img-fluid" alt=""></div>
                 <div class="swiper-slide"><img src="assets/img/screen/cards-1.png" class="img-fluid" alt=""></div>
                 <div class="swiper-slide"><img src="assets/img/screen/tarpaulin-1.png" class="img-fluid" alt=""></div>
                 <div class="swiper-slide"><img src="assets/img/screen/shirt-1.png" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="assets/img/screen/8.jpg" class="img-fluid" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/screen/mug-1.png" class="img-fluid" alt=""></div>
             </div>
             <div class="swiper-pagination"></div>
             </div>
@@ -580,60 +552,7 @@
         </div>
       </div>
     </section>
-    <!-- End Testimonials Section -->
-
-    
-
-    <!-- ======= Blog Section ======= -->
-    <!-- <section id="blog" class="padd-sectio">
-
-      <div class="container" data-aos="fade-up">
-        <div class="section-title text-center">
-
-          <h2>Latest posts</h2>
-          <p class="separator">Integer cursus bibendum augue ac cursus .</p>
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-md-6 col-lg-4">
-            <div class="block-blog text-left">
-              <a href="#"><img src="assets/img/blog/blog-image-1.jpg" alt="img"></a>
-              <div class="content-blog">
-                <h4><a href="#">whats isthe difference between good and bat typography</a></h4>
-                <span>05, juin 2017</span>
-                <a class="float-end readmore" href="#">read more</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="block-blog text-left">
-              <a href="#"><img src="assets/img/blog/blog-image-2.jpg" class="img-responsive" alt="img"></a>
-              <div class="content-blog">
-                <h4><a href="#">whats isthe difference between good and bat typography</a></h4>
-                <span>05, juin 2017</span>
-                <a class="float-end readmore" href="#">read more</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4">
-            <div class="block-blog text-left">
-              <a href="#"><img src="assets/img/blog/blog-image-3.jpg" class="img-responsive" alt="img"></a>
-              <div class="content-blog">
-                <h4><a href="#">whats isthe difference between good and bat typography</a></h4>
-                <span>05, juin 2017</span>
-                <a class="float-end readmore" href="#">read more</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section> -->
-    <!-- End Blog Section -->
-
+    <!-- End About Us Section -->
 
     <section id="newsletter" class="newsletter text-center">
       <div class="overlay padd-section">
@@ -702,7 +621,8 @@
       </div>
     </section><!-- End Contact Section -->
 
-  </main><!-- End #main -->
+  </main>
+  <!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer class="footer">

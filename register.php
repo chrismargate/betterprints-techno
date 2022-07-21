@@ -7,7 +7,7 @@
         $password = $_POST["password"];
         $fname = $_POST["fname"];
         $lname = $_POST["lname"];
-        $address = $_POST["address1"] . $_POST["address2"];
+        $address = $_POST["address1"] . " " . $_POST["address2"];
         $contactNumber = $_POST["contactNumber"];
         $email = $_POST["email"];
 
@@ -21,8 +21,8 @@
             $sqlQuery = "INSERT INTO customers_T (username, password, fname, lname, email_address, contact_number,address) VALUES ('$username', '$password', '$fname','$lname','$email', '$contactNumber','$address')";
 
             if($conn->query($sqlQuery) === TRUE){
-                echo "<h1>You have registered successfully!</h1>";
-                header("Location: index.php");
+                // echo "<h1>You have registered successfully!</h1>";
+                header("Location: login.php");
             }else {
                 echo "Error: " . $sqlQuery . "<br>" . $conn->error;
                 header("Location: register.php");

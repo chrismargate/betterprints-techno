@@ -12,7 +12,14 @@
 
         if(existingUsername($username)){
 			if(correctPassword($username,$password)){
+				$userRecord = retrieveRecord($username);
+			    $SESSION['customer_id'] = $userRecord['customer_id'];
 				$_SESSION['username'] = $username;
+				$_SESSION['fname'] = $userRecord['fname'];
+				$_SESSION['lname'] = $userRecord['lname'];
+				$_SESSION['address'] = $userRecord['address'];
+				$_SESSION['conctactNumber'] = $userRecord['contact_number'];
+				$_SESSION['email'] = $userRecord['email_address'];
 				header("Location: index.php");
 			}else{
 
