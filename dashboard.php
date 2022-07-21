@@ -1,5 +1,6 @@
 <?php
     include "top_nav.php";
+    // include "submit_print.php";
     // session_start();
 ?>
 
@@ -27,7 +28,7 @@
                     <div class="container p=5 my-5">
                         <div class="card" style="border-radius: 15px;">
                             <div class="card-body p-5">
-                                This is some text within a card body.
+                                Work in progress..
                             </div>
                         </div>
                     </div>
@@ -51,6 +52,7 @@
             <a class="nav-link disabled" href="#">Disabled</a>
         </li>
     </ul> -->
+    
     
 
     <!-- END CODE HERE -->

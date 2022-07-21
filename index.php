@@ -29,7 +29,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/index.css?v=3" rel="stylesheet">
+  <link href="assets/css/index.css?v=4" rel="stylesheet">
 
 </head>
 
@@ -423,13 +423,13 @@
     <!-- End Video Section -->
 
     <!-- ======= Team Section ======= -->
-    <!-- <section id="team" class="padd-section text-center">
+    <section id="team" class="padd-section text-center">
 
       <div class="container" data-aos="fade-up">
         <div class="section-title text-center">
 
-          <h2>Team Member</h2>
-          <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+          <h2>Franchise</h2>
+          <p class="separator">Be apart of our team! With over 150 live franchisees all over the Philippine islands.</p>
         </div>
 
         <div class="row">
@@ -437,7 +437,7 @@
           <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
             <div class="team-block bottom">
               <img src="assets/img/team/1.jpg" class="img-responsive" alt="img">
-              <div class="team-content">
+              <!-- <div class="team-content">
                 <ul class="list-unstyled">
                   <li><a href="#"><i class="bi bi-facebook"></i></a></li>
                   <li><a href="#"><i class="bi bi-twitter"></i></a></li>
@@ -445,7 +445,7 @@
                 </ul>
                 <span>manager</span>
                 <h4>Kimberly Tran</h4>
-              </div>
+              </div> -->
             </div>
           </div>
 
@@ -495,9 +495,34 @@
           </div>
 
         </div>
+        <!-- <div class="row">
+
+          <h2>Franchise</h2>
+          <p class="separator">Be apart of our team! With over 150 live franchisees all over the Philippine islands.</p>
+        </div> -->
+        <div class="hero-container-introduction padd-section text-center">
+        <div class="container" data-aos="fade-up">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <div class="hero-introduction-content">
+                  <div class="top-top">
+                    <!-- <h2>Our Users Speack volumes us</h2> -->
+                    <p>Franchising helps everyone at BetterPrints develop and grow faster. The more sites we have nationwide, the wider the range of coverage. Making it easier and faster to provide and supply our customers needs. </br></br>
+                    Learn more about our franchising program by contacting us at the bottom of the website. </br></br>
+                    Download the franchise application form below and submit it to our email at the contact section.</p>
+                    <!-- <h4>Kimberly Tran<span>manager</span></h4> -->
+                  </div>
+                </div>
+                <!-- <a href="progress_page.php" class="btn-get-started scrollto">Get Started</a> -->
+            </div>
+          </div>
+          <a href="assets/pdf/application-form.pdf" class="btn-get-started scrollto">Download Application Form</a>
+        </div>
       </div>
-    </section> -->
+    </section>
     <!-- End Team Section -->
+
+
 
     <!-- ======= About Us Section ======= -->
     <section id="about-us" class="padd-section text-center">
