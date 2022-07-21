@@ -37,12 +37,9 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
             <button type="button" onclick="goToMainFunction()" class="btn btn-outline-success" style="--bs-btn-padding-y: .1rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;" name="main-btn">Go to Main Page</button>
-            <!-- <span class="navbar-text ps-4 pe-4"> -->
                 <?php
                 echo '<span class="navbar-text ps-4 pe-4">Hello, '. $_SESSION['fname'] . ' </span>';
                 ?>
-                 <!-- Hello, Jemma
-             </span> -->
             <li class="nav-item">
                 <a class="nav-link pe-4" aria-current="page" href="settings.php">Settings</a>
             </li>

@@ -29,7 +29,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/index.css?v=9" rel="stylesheet">
+  <link href="assets/css/index.css?v=1" rel="stylesheet">
 
 </head>
 
@@ -552,15 +552,45 @@
         </div>
       </div>
     </section>
+
     <!-- End About Us Section -->
 
-    <section id="newsletter" class="newsletter text-center">
-      <div class="overlay padd-section">
-        <div class="container" data-aos="zoom-in">
+
+  <!-- Start Founders Section -->
+    <section id="founders" class="padd-section text-center">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-title text-center">
+
+          <h2>Founders</h2>
+          <p class="separator">Meet the company's managing partners and founders.</p>
+        </div>
+
+        <div class="row justify-content-center">
+
+          <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+            <div class="founders-block bottom">
+              <img src="assets/img/chris.jpg" class="img-responsive" alt="img">
+              <div class="team-content">
+                <span>Co-Founder</span>
+                <h4>Chris Samuel A. Margate</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+            <div class="founders-block bottom">
+              <img src="assets/img/jemma.jpg" class="img-responsive" alt="img">
+              <div class="team-content">
+                <span>Co-Founder</span>
+                <h4>Jemmalyn A. De Leon</h4>
+              </div>
+            </div>
+          </div>
 
         </div>
-      </div>
     </section>
+    <!-- End Founders Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="padd-section">

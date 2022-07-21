@@ -95,7 +95,7 @@
 		      			<h3 class="mb-4">Sign In</h3>
 		      		</div>
 		      	</div>
-						<form action="<?php echo $_SERVER['PHP_SELF'] ?>" class="login-form" method="POST">
+						<form class="login-form" method="POST">
 		      		<div class="form-group">
 		      			<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-user"></span></div>
 		      			<input type="text" class="form-control rounded-left" placeholder="Username" name="username" required>

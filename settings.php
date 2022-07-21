@@ -1,5 +1,7 @@
 <?php
     include "top_nav.php";
+    include "config/input_checking.php";
+    include "config/database.php";
     
     if(isset($_POST["save"])){
         $username = $_POST["username"];
@@ -7,8 +9,8 @@
         $fname = $_POST["fname"];
         $lname = $_POST["lname"];
         $address = $_POST["address"];
-        $contactNumber = $_POST["contact_number"];
-        $email = $_POST["email_address"];
+        $contact_number = $_POST["contact_number"];
+        $email_address = $_POST["email_address"];
 
         $changeField = [
         "username" => $username,
@@ -16,8 +18,8 @@
         "fname" => $fname,
         "lname" => $lname,
         "address" => $address,
-        "email_address" => $email,
-        "contact_number" => $contactNumber];
+        "email_address" => $email_address,
+        "contact_number" => $contact_number];
 
         // print_r($changeField);
         // print_r($_SESSION[1]);
@@ -25,7 +27,7 @@
         // o $changeField;
 
         // print_r($_SESSION);
-        
+
         foreach($changeField as $fieldKey => $fieldValue){
             if($fieldValue == NULL){
                 $changeField[$fieldKey] = $_SESSION[$fieldKey];
@@ -33,29 +35,40 @@
                 // echo $fieldValue;
                 continue;
             }
-            
         }
 
-        // print_r($changeField);
+        $changeUsername = $changeField['username'];
+        $changePassword = $changeField['password'];
+        $changeFname = $changeField['fname'];
+        $changeLname = $changeField['lname'];
+        $changeEmail = $changeField['email_address'];
+        $changeAddress = $changeField['address'];
+        $changeContact = $changeField['contact_number'];
+        $sessionID = $_SESSION['customer_id'];
 
-        if(true){
-            echo "<h1>There was a required field you left blank. Please check again before submitting.</h1>";
-            echo "<h1>Random</h1>";
-        }else{
+        $conn = newConnection();
 
+        $sqlQuery = "UPDATE customers_T SET username = '$changeUsername', password = '$changePassword', fname = '$changeFname', lname = '$changeLname', contact_number = '$changeContact', address = '$changeAddress', email_address = '$changeEmail' WHERE customers_T.customer_id = '$sessionID'";
 
-        //     $sqlQuery = "UPDATE `customers_T` SET `username` = 'margate23asda', `password` = 'password123asdasdasd', `fname` = 'Chrisasda', `lname` = 'Margateasd', `contact_number` = '09089232640asd', `address` = '23 C Kaunlaran St., Rosario 5, Sta. LuciaPasig City, NasdasCR', `email_address` = 'chrissamuel231@gmail.comasdasd' WHERE `customers_T`.`customer_id` = $_SERVER['customer_id']";
-
-            $conn = newConnection();
-
-            if($conn->query($sqlQuery) === TRUE){
-                header("Location: login.php");
-            }else {
-                echo "Error: " . $sqlQuery . "<br>" . $conn->error;
-                header("Location: register.php");
-            }
+        if($conn->query($sqlQuery) === TRUE){
             $conn->close();
+            $userRecord = retrieveRecord($changeUsername);
+            $_SESSION['customer_id'] = $userRecord['customer_id'];
+            $_SESSION['username'] = $userRecord['username'];
+            $_SESSION['password'] = $userRecord['password'];
+            $_SESSION['fname'] = $userRecord['fname'];
+            $_SESSION['lname'] = $userRecord['lname'];
+            $_SESSION['address'] = $userRecord['address'];
+            $_SESSION['contact_number'] = $userRecord['contact_number'];
+            $_SESSION['email_address'] = $userRecord['email_address'];
+            header("Location: settings.php");
+        }else {
+            echo "Error: " . $sqlQuery . "<br>" . $conn->error;
+            $conn->close();
+            header("Location: settings.php");
         }
+        $conn->close();
+        
     }
     elseif(isset($_POST['cancel'])){
         header("Location: dashboard.php");

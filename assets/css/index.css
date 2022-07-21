@@ -932,7 +932,7 @@ body {
     }
   }
 
-  /* Team Section
+  /* Franchise Section
   --------------------------------*/
   #franchise .franchise-block {
     box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
@@ -952,7 +952,7 @@ body {
     /* object-position: 100% 10%; */
     /* overflow: hidden; */
   }
-  /* #franchise .franchise-block .team-content {
+  #franchise .franchise-block .team-content {
     background: #fff none repeat scroll 0 0;
     bottom: 0;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
@@ -978,7 +978,7 @@ body {
     padding-right: 10px;
     transition: 0.3s;
   } */
-  /* #franchise .franchise-block .team-content ul li a .fa:hover {
+  #franchise .franchise-block .team-content ul li a .fa:hover {
     color: #71c55d;
   }
   #franchise .franchise-block .team-content ul > span {
@@ -992,7 +992,7 @@ body {
   #franchise .franchise-block:hover .team-content {
     bottom: 0px;
     transition: all 0.5s ease-in-out 0s;
-  } */
+  }
   
   /* Pricing Table Section
   --------------------------------*/
@@ -1209,6 +1209,69 @@ body {
   #newsletter ul li i {
     color: #fff;
     line-height: 0;
+  }
+
+  /* Founders Section
+  ------------------------------- */
+
+  #founders .founders-block {
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+    height: 254px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  @media (max-width: 991px) {
+    #founders .founders-block {
+      margin-bottom: 30px;
+    }
+  }
+  #founders .founders-block img {
+    width: 100%;
+    object-fit: cover;
+    /* object-position: 100% 10%; */
+    /* overflow: hidden; */
+  }
+  #founders .founders-block .team-content {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
+    bottom: -147px;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    transition: all 0.5s ease-in-out 0s;
+  }
+  #founders .founders-block .team-content ul {
+    display: block;
+    width: 100%;
+  }
+  #founders .founders-block .team-content ul li {
+    display: inline-block;
+  }
+  #founders .founders-block .team-content ul li a {
+    color: #626262;
+  }
+  #founders .founders-block .team-content ul li a .fa {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.3s;
+  } */
+  #founders .founders-block .team-content ul li a .fa:hover {
+    color: #71c55d;
+  }
+  #founders .founders-block .team-content ul > span {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  #founders .founders-block:hover .team-content {
+    bottom: 0px;
+    transition: all 0.5s ease-in-out 0s;
   }
   
   /* Contact Section
