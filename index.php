@@ -56,7 +56,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
-          <li><a class="nav-link scrollto" href="#about-us">Franchise</a></li>
+          <li><a class="nav-link scrollto" href="#franchise">Franchise</a></li>
           <li><a class="nav-link scrollto" href="#screenshots">Branches</a></li>
           <li><a class="nav-link scrollto" href="#about-us">About Us</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
@@ -423,7 +423,7 @@
     <!-- End Video Section -->
 
     <!-- ======= Team Section ======= -->
-    <section id="team" class="padd-section text-center">
+    <section id="franchise" class="padd-section text-center">
 
       <div class="container" data-aos="fade-up">
         <div class="section-title text-center">
@@ -435,8 +435,8 @@
         <div class="row">
 
           <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
-            <div class="team-block bottom">
-              <img src="assets/img/team/office-3.jpg" class="img-responsive" alt="img">
+            <div class="franchise-block bottom">
+              <img src="assets/img/franchise/office-3.jpg" class="img-responsive" alt="img">
               <!-- <div class="team-content">
                 <ul class="list-unstyled">
                   <li><a href="#"><i class="bi bi-facebook"></i></a></li>
@@ -450,20 +450,20 @@
           </div>
 
           <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
-            <div class="team-block bottom">
-              <img src="assets/img/team/office-4.jpg" class="img-responsive" alt="img">
+            <div class="franchise-block bottom">
+              <img src="assets/img/franchise/office-4.jpg" class="img-responsive" alt="img">
             </div>
           </div>
 
           <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
-            <div class="team-block bottom">
-              <img src="assets/img/team/franchisee.jpg" class="img-responsive" alt="img">
+            <div class="franchise-block bottom">
+              <img src="assets/img/franchise/franchisee.jpg" class="img-responsive" alt="img">
             </div>
           </div>
 
           <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="400">
-            <div class="team-block bottom">
-              <img src="assets/img/team/unity.jpg" class="img-responsive" alt="img">
+            <div class="franchise-block bottom">
+              <img src="assets/img/franchise/unity.jpg" class="img-responsive" alt="img">
             </div>
           </div>
 

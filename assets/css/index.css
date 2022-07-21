@@ -934,7 +934,7 @@ body {
 
   /* Team Section
   --------------------------------*/
-  #team .team-block {
+  #franchise .franchise-block {
     box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
     height: 254px;
     overflow: hidden;
@@ -942,17 +942,17 @@ body {
     width: 100%;
   }
   @media (max-width: 991px) {
-    #team .team-block {
+    #franchise .franchise-block {
       margin-bottom: 30px;
     }
   }
-  #team .team-block img {
+  #franchise .franchise-block img {
     width: 100%;
     object-fit: cover;
     /* object-position: 100% 10%; */
     /* overflow: hidden; */
   }
-  #team .team-block .team-content {
+  /* #franchise .franchise-block .team-content {
     background: #fff none repeat scroll 0 0;
     bottom: 0;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
@@ -962,26 +962,26 @@ body {
     width: 100%;
     transition: all 0.5s ease-in-out 0s;
   }
-  #team .team-block .team-content ul {
+  #franchise .franchise-block .team-content ul {
     display: block;
     width: 100%;
   }
-  #team .team-block .team-content ul li {
+  #franchise .franchise-block .team-content ul li {
     display: inline-block;
   }
-  #team .team-block .team-content ul li a {
+  #franchise .franchise-block .team-content ul li a {
     color: #626262;
   }
-  #team .team-block .team-content ul li a .fa {
+  #franchise .franchise-block .team-content ul li a .fa {
     float: left;
     padding-left: 10px;
     padding-right: 10px;
     transition: 0.3s;
-  }
-  #team .team-block .team-content ul li a .fa:hover {
+  } */
+  /* #franchise .franchise-block .team-content ul li a .fa:hover {
     color: #71c55d;
   }
-  #team .team-block .team-content ul > span {
+  #franchise .franchise-block .team-content ul > span {
     display: inline-block;
     font-size: 14px;
     font-weight: 300;
@@ -989,10 +989,10 @@ body {
     margin-bottom: 20px;
     text-transform: uppercase;
   }
-  #team .team-block:hover .team-content {
+  #franchise .franchise-block:hover .team-content {
     bottom: 0px;
     transition: all 0.5s ease-in-out 0s;
-  }
+  } */
   
   /* Pricing Table Section
   --------------------------------*/
