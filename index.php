@@ -29,7 +29,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/index.css?v=4" rel="stylesheet">
+  <link href="assets/css/index.css?v=9" rel="stylesheet">
 
 </head>
 
@@ -436,7 +436,7 @@
 
           <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
             <div class="team-block bottom">
-              <img src="assets/img/team/1.jpg" class="img-responsive" alt="img">
+              <img src="assets/img/team/office-3.jpg" class="img-responsive" alt="img">
               <!-- <div class="team-content">
                 <ul class="list-unstyled">
                   <li><a href="#"><i class="bi bi-facebook"></i></a></li>
@@ -451,46 +451,19 @@
 
           <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
             <div class="team-block bottom">
-              <img src="assets/img/team/2.jpg" class="img-responsive" alt="img">
-              <div class="team-content">
-                <ul class="list-unstyled">
-                  <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                  <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                  <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                </ul>
-                <span>manager</span>
-                <h4>Kimberly Tran</h4>
-              </div>
+              <img src="assets/img/team/office-4.jpg" class="img-responsive" alt="img">
             </div>
           </div>
 
           <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
             <div class="team-block bottom">
-              <img src="assets/img/team/3.jpg" class="img-responsive" alt="img">
-              <div class="team-content">
-                <ul class="list-unstyled">
-                  <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                  <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                  <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                </ul>
-                <span>manager</span>
-                <h4>Kimberly Tran</h4>
-              </div>
+              <img src="assets/img/team/franchisee.jpg" class="img-responsive" alt="img">
             </div>
           </div>
 
           <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="400">
             <div class="team-block bottom">
-              <img src="assets/img/team/4.jpg" class="img-responsive" alt="img">
-              <div class="team-content">
-                <ul class="list-unstyled">
-                  <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                  <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                  <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                </ul>
-                <span>manager</span>
-                <h4>Kimberly Tran</h4>
-              </div>
+              <img src="assets/img/team/unity.jpg" class="img-responsive" alt="img">
             </div>
           </div>
 
