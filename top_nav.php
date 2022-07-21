@@ -44,7 +44,7 @@
                  <!-- Hello, Jemma
              </span> -->
             <li class="nav-item">
-                <a class="nav-link pe-4" aria-current="page" href="progress_page.php">Settings</a>
+                <a class="nav-link pe-4" aria-current="page" href="settings.php">Settings</a>
             </li>
             <!-- <form method="POST"> -->
                 <button onclick="logoutFunction()" class="btn btn-outline-danger btn-sm px-3 rounded-pill" style="--bs-btn-padding-y: .1rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;" type="button" name="logout">Logout</button>

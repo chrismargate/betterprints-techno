@@ -1,5 +1,6 @@
 <?php
     include "top_nav.php";
+    // include "settings.php";
     // include "submit_print.php";
     // session_start();
 ?>
